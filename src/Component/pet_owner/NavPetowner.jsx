@@ -1,15 +1,18 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 function NavPetowner() {
     const [isOpen, setIsOpen] = useState(false);
     const location = useLocation();
-
+    const navigate = useNavigate();
 
     useEffect(() => {
         setIsOpen(false);
     }, [location]);
-
+    const handleSignOut = () => {
+        localStorage.removeItem("currentUser");
+        navigate("/");
+    }
     return (
         <div className="header">
             <nav className="navbar navbar-expand-lg navbar-light shadow-sm">

@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 function NavPetowner() {
@@ -13,6 +13,11 @@ function NavPetowner() {
             setCurrentUser(JSON.parse(storedUser));
         }
     }, [location]);
+    const navigate = useNavigate();
+    const handleSignOut = () => {
+        localStorage.removeItem("currentUser");
+        navigate("/");
+    }
 
     const isActive = (path) => (location.pathname === path ? "active-link" : "");
 
@@ -96,15 +101,13 @@ function NavPetowner() {
                                 Hi, {currentUser.name}
                             </Link>
                         )}
-                        {currentUser && currentUser.role === "vet" && (
-                            <Link
-                                to="/veterinarian/myprofile"
-                                className="btn"
-                                style={{ backgroundColor: "#7f5539", color: "white" }}
-                            >
-                                Hi, {currentUser.name}
-                            </Link>
-                        )}
+                        <button
+                            className="btn"
+                            style={{ backgroundColor: "#7f5539", color: "white" }}
+                            onClick={handleSignOut}
+                        >
+                            Sign out
+                        </button>
                     </div>
                 </div>
             </nav>

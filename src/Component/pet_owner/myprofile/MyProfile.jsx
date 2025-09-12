@@ -5,7 +5,6 @@ import { Link, useNavigate } from "react-router-dom";
 function MyProfile() {
     const [currentUser, setCurrentUser] = useState(null);
     const [myPets, setMyPets] = useState([]);
-    const navigate = useNavigate();
 
     useEffect(() => {
         const storedUser = localStorage.getItem("currentUser");
@@ -16,10 +15,7 @@ function MyProfile() {
             setMyPets(ownedPets);
         }
     }, []);
-    const handleSignOut = () => {
-        localStorage.removeItem("currentUser");
-        navigate("/");
-    }
+
 
     if (!currentUser) {
         return <div className="container mt-5">No user logged in.</div>;
@@ -37,13 +33,7 @@ function MyProfile() {
                             <p className="card-text"><strong>Phone:</strong> {currentUser.phone}</p>
                         </div>
                     </div>
-                    <button
-                        className="btn"
-                        style={{ backgroundColor: "#7f5539", color: "white" }}
-                        onClick={handleSignOut}
-                    >
-                        Sign out
-                    </button>
+
 
                 </div>
                 <div className="col-md-9">
