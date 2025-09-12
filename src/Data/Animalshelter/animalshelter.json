@@ -2,26 +2,28 @@
   {
     "id": 1,
     "name": "Buddy",
-    "species": "dog",
+    "type": "dog",
     "breed": "pug",
     "age": 2,
-    "description": "Buddy is a playful pug who loves cuddles and short walks. Perfect for apartment living.",
-    "mainImage": "https://example.com/images/pug_buddy_main.jpg",
+    "description": "Meet Buddy, a delightful and affectionate pug with a heart full of love! This charming 2-year-old is always ready to brighten your day with his playful antics and soulful, expressive eyes. Buddy thrives on cuddles and enjoys short, leisurely walks around the neighborhood, making him the perfect companion for apartment dwellers or families with children. His calm and friendly temperament ensures he gets along wonderfully with people of all ages, and he’s always eager to join in on family activities. Whether it’s snuggling on the couch or chasing after his favorite toy, Buddy’s infectious joy will fill your home with warmth. Adopt Buddy today and give this sweet pug the loving forever home he deserves!",
+    "location": "Ho Chi Minh City",
     "images": [
-      "https://example.com/images/pug_buddy_1.jpg",
-      "https://example.com/images/pug_buddy_2.jpg",
-      "https://example.com/images/pug_buddy_3.jpg"
+      "https://media.adoptapet.com/image/upload/d_PDP-NoPetPhoto_Dog.png/c_auto,g_auto,w_358,ar_142:135,dpr_2/f_auto,q_auto/1246867041",
+      "https://consumer-cms.petfinder.com/sites/default/files/images/content/Pug%201.jpg",
+      "https://media.istockphoto.com/id/1094862462/photo/unhappy-dog-pug-sitting-in-a-cage.jpg?s=612x612&w=0&k=20&c=s7Wo_FHzhJgLCvo1se08-YSNR4vYdvkNPhToWMw8VxA=",
+      "https://thumbs.dreamstime.com/b/funny-pug-puppy-cage-30511717.jpg"
     ]
   },
   {
     "id": 2,
     "name": "Rocky",
-    "species": "dog",
+    "type": "dog",
     "breed": "pitbull",
     "age": 4,
-    "description": "Rocky is a loyal pitbull with a gentle heart, well-trained and loves children.",
-    "mainImage": "https://www.rover.com/blog/wp-content/uploads/Pit-bull-names.jpg",
+    "description": "Rocky is a loyal and loving 4-year-old pitbull who’s ready to steal your heart! This gentle giant is well-trained, with a calm demeanor that makes him a fantastic companion for families, especially those with children. Rocky’s affectionate nature shines through in his love for belly rubs and playtime in the yard. He’s strong yet gentle, always eager to please, and thrives in environments where he can shower his people with love. Whether you’re looking for a jogging buddy or a cozy Netflix partner, Rocky is the perfect match. Give this devoted pitbull a chance to be your loyal friend, and adopt him into your forever home today!",
+    "location": "Ha Noi City",
     "images": [
+      "https://www.rover.com/blog/wp-content/uploads/Pit-bull-names.jpg",
       "https://worldanimalfoundation.org/wp-content/uploads/2022/12/Exercise-review-2.jpg",
       "https://dbw3zep4prcju.cloudfront.net/animal/a02d90e6-2fe0-4c4d-a072-cebb1576f4f9/image/72140c6f-f94a-4cc6-a418-d30a910dd6af.jpg?versionId=Cjtju5F3kYlyJvjcdXcSsfuR28_w.B__&bust=1713277096",
       "https://puppytoob.com/wp-content/uploads/2023/02/Rocky-1.webp"
@@ -30,12 +32,13 @@
   {
     "id": 3,
     "name": "Max",
-    "species": "dog",
+    "type": "dog",
     "breed": "rottweiler",
     "age": 5,
-    "description": "Max is a strong rottweiler, protective yet affectionate with family.",
-    "mainImage": "https://cdn.britannica.com/69/234469-050-B883797B/Rottweiler-dog.jpg",
+    "description": "Max is a majestic 5-year-old rottweiler with a heart as big as his protective instincts! This strong and loyal companion is the perfect blend of strength and affection, making him an ideal addition to an active family. Max loves being around his people, offering unwavering loyalty and a gentle, loving demeanor with those he trusts. He enjoys long walks, play sessions, and even quiet evenings by your side. His confident yet calm personality makes him a great fit for a home that values both security and companionship. Adopt Max today and let this incredible rottweiler bring love and protection to your family!",
+    "location": "Da Nang City",
     "images": [
+      "https://cdn.britannica.com/69/234469-050-B883797B/Rottweiler-dog.jpg",
       "https://cdn.royalcanin-weshare-online.io/RVaO8noBBKJuub5qUrpq/v3/bp-lot-2-rottweiler-couleur-portrait",
       "https://pethouse.com.vn/wp-content/uploads/2023/08/cho-roti.webp",
       "https://channuoithuy.com.vn/wp-content/uploads/2024/08/cho-rottweiler-gia-1200x900.jpg"
@@ -44,12 +47,13 @@
   {
     "id": 4,
     "name": "Bella",
-    "species": "dog",
+    "type": "dog",
     "breed": "golden retriever",
     "age": 3,
-    "description": "Bella is a cheerful golden retriever who enjoys swimming and outdoor games.",
-    "mainImage": "https://www.dailypaws.com/thmb/DQfQglzyKWlVSlsDwKPprF2iMSg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/golden-retriever-177213599-2000-a30830f4d2b24635a5d01b3c5c64b9ef.jpg",
+    "description": "Bella is a radiant 3-year-old golden retriever who brings sunshine to every room! With her boundless energy and love for adventure, Bella is always up for a swim in the lake or a lively game of fetch in the park. Her cheerful personality and gentle nature make her a wonderful companion for families, outdoor enthusiasts, or anyone looking for a loyal friend. Bella’s golden coat and warm smile are matched only by her affectionate heart, as she loves cuddling just as much as playing. Bring Bella into your home and let her fill your days with joy and companionship—adopt her today!",
+    "location": "Nha Trang City",
     "images": [
+      "https://www.dailypaws.com/thmb/DQfQglzyKWlVSlsDwKPprF2iMSg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/golden-retriever-177213599-2000-a30830f4d2b24635a5d01b3c5c64b9ef.jpg",
       "https://cdn.royalcanin-weshare-online.io/V1Yv7XoBBKJuub5qCLlq/v1/bp-lot-2-golden-retriever-couleur-outdoor",
       "https://toquoc.mediacdn.vn/280518851207290880/2021/11/4/avatar1636026952068-16360269530042005000667.jpg",
       "https://cdn.britannica.com/65/102265-050-EC17E3B0/retriever-puppies.jpg"
@@ -58,12 +62,13 @@
   {
     "id": 5,
     "name": "Coco",
-    "species": "dog",
+    "type": "dog",
     "breed": "poodle",
     "age": 1,
-    "description": "Coco is a smart toy poodle, easy to train and very friendly with other pets.",
-    "mainImage": "https://www.dailypaws.com/thmb/LsdP3tWyKD45UmxbejhKhvdlzOc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/toy-poodle-puppy-in-hands-1288649610-2000-3659ce78ca1b4c06b43c447d45179edb.jpg",
+    "description": "Coco is a vibrant 1-year-old toy poodle bursting with intelligence and charm! This petite pup is a quick learner, making her a joy to train, and her friendly nature ensures she gets along wonderfully with other pets and people alike. Coco loves showing off her tricks and enjoys interactive playtime, whether it’s chasing a ball or learning a new command. Her small size makes her perfect for apartment living, and her affectionate personality will melt your heart. If you’re looking for a smart, social, and endlessly lovable companion, Coco is ready to find her forever home—adopt her today!",
+    "location": "Ho Chi Minh City",
     "images": [
+      "https://www.dailypaws.com/thmb/LsdP3tWyKD45UmxbejhKhvdlzOc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/toy-poodle-puppy-in-hands-1288649610-2000-3659ce78ca1b4c06b43c447d45179edb.jpg",
       "https://i.cdn.newsbytesapp.com/images/l8920240125102707.jpeg",
       "https://www.dailypaws.com/thmb/Viw7YmgSb-1XayDz-vBl2EhHh8U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/puppy-at-home-alone-chaos-1286259464-2000-7d4c4948c6f949e1abf3949a49d97746.jpg",
       "https://furstheory.com/wp-content/uploads/2022/11/steven-van-elk-1OnbCf7AOdY-unsplash_1.jpg"
@@ -72,12 +77,13 @@
   {
     "id": 6,
     "name": "Milo",
-    "species": "dog",
+    "type": "dog",
     "breed": "chihuahua",
     "age": 2,
-    "description": "Milo is a tiny chihuahua with a big personality. Loves to nap on warm laps.",
-    "mainImage": "https://cdn.britannica.com/44/233244-050-A65D4571/Chihuahua-dog.jpg",
+    "description": "Milo is a pint-sized 2-year-old chihuahua with a personality that’s larger than life! This tiny bundle of joy loves nothing more than curling up on a warm lap for a cozy nap or trotting alongside you with his confident strut. Milo’s playful spirit and affectionate nature make him the perfect companion for anyone seeking a loyal and loving friend. His small size makes him ideal for apartment living, and his big heart ensures he’ll bring endless happiness to your home. Adopt Milo today and let this charming chihuahua fill your life with love!",
+    "location": "Ha Noi City",
     "images": [
+      "https://cdn.britannica.com/44/233244-050-A65D4571/Chihuahua-dog.jpg",
       "https://consumer-cms.petfinder.com/sites/default/files/images/content/Chihuahua%20%204.jpg",
       "https://www.dailypaws.com/thmb/x6NeOXEc5FALmukV3NhuNzD1_ak=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chihuahua-800489110-2000-dcbba2b3d8484ea38b35a6d9df9535ad.jpg",
       "https://blog.petloverscentre.com/wp-content/uploads/2023/11/Chihuahua-Singapore-featured-image-e1700546013184.png"
@@ -86,12 +92,13 @@
   {
     "id": 7,
     "name": "Spot",
-    "species": "dog",
+    "type": "dog",
     "breed": "dalmatian",
     "age": 3,
-    "description": "Spot is an energetic dalmatian who enjoys running and playing fetch.",
-    "mainImage": "https://cdn.britannica.com/47/236047-050-F06BFC5E/Dalmatian-dog.jpg",
+    "description": "Spot is a spirited 3-year-old dalmatian who’s ready to run into your life! With his striking coat and boundless energy, Spot loves nothing more than a good game of fetch or a long run in the park. This active pup is perfect for families or individuals who enjoy an outdoor lifestyle and want a loyal companion by their side. Spot’s friendly and outgoing personality makes him a hit with everyone he meets, and his playful spirit will keep you entertained for hours. Adopt Spot today and give this energetic dalmatian the active, loving home he’s dreaming of!",
+    "location": "Da Nang City",
     "images": [
+      "https://cdn.britannica.com/47/236047-050-F06BFC5E/Dalmatian-dog.jpg",
       "https://www.dailypaws.com/thmb/ROtowIyJK5RqCBbU84qjRH4aGaw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/dalmatian-2-beach-908008204-2000-1ace82eddc9e43a798aa1fa841600e6b.jpg",
       "https://dogwellnet.com/uploads/monthly_2022_07/555127158_3dalmatians.PNG.edc4b3de8c0494786849641e11af39cc.PNG",
       "https://petscare-assets-prod.s3.amazonaws.com/media/original_images/dalmatian-puppy-playing-red-ball-lawn-18345.webp"
@@ -100,12 +107,13 @@
   {
     "id": 8,
     "name": "Snow",
-    "species": "dog",
+    "type": "dog",
     "breed": "samoyed",
     "age": 4,
-    "description": "Snow is a fluffy samoyed with a friendly smile, perfect for families.",
-    "mainImage": "https://cdn.britannica.com/85/235885-050-C8CC6D8B/Samoyed-dog-standing-snow.jpg",
+    "description": "Snow is a stunning 4-year-old samoyed with a fluffy white coat and a smile that lights up any room! This friendly and gentle dog is the perfect addition to a family looking for a loyal and loving companion. Snow enjoys long walks, playing in the snow, and curling up for cuddles after a fun day. Her cheerful personality and affectionate nature make her a favorite with both adults and children. Snow is ready to bring warmth and joy to her forever home—adopt her today and let this beautiful samoyed become part of your family!",
+    "location": "Nha Trang City",
     "images": [
+      "https://cdn.britannica.com/85/235885-050-C8CC6D8B/Samoyed-dog-standing-snow.jpg",
       "https://cdn.wamiz.fr/cdn-cgi/image/format=auto,quality=80,width=1200,height=675,fit=cover/animal/breed/dog/adult/66e947cf51338694761304.jpg",
       "https://consumer-cms.petfinder.com/sites/default/files/images/content/Samoyed%204.jpg",
       "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11171244/202106Samoyed-FeaturedImage.jpg"
@@ -114,12 +122,13 @@
   {
     "id": 9,
     "name": "Charlie",
-    "species": "dog",
+    "type": "dog",
     "breed": "corgi",
     "age": 2,
-    "description": "Charlie is a playful corgi who loves belly rubs and chasing balls.",
-    "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Welchcorgipembroke.JPG/1200px-Welchcorgipembroke.JPG",
+    "description": "Charlie is an adorable 2-year-old corgi with a playful spirit and a love for adventure! This charming pup is always ready for a game of fetch or a belly rub session, making him the perfect companion for families or individuals who want a fun and loyal friend. Charlie’s short legs and big personality make him a joy to be around, and his intelligence makes training a breeze. Whether he’s chasing balls or snuggling up for a cozy evening, Charlie is sure to bring endless happiness to his new home. Adopt Charlie today and let this lovable corgi steal your heart!",
+    "location": "Ho Chi Minh City",
     "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Welchcorgipembroke.JPG/1200px-Welchcorgipembroke.JPG",
       "https://peticon.edu.vn/wp-content/uploads/2023/07/corgi-pem.webp",
       "https://fagopet.vn/uploads/images/621ef0ae9487f634f844173d/cho-corki-long-ngan__1_.webp",
       "https://pethelpful.com/.image/c_fill,g_xy_center,x_444,y_384/NDowMDAwMDAwMDAwMTA5OTM4/a-corgi-puppy-running.jpg"
@@ -128,12 +137,13 @@
   {
     "id": 10,
     "name": "Daisy",
-    "species": "dog",
+    "type": "dog",
     "breed": "maltese",
     "age": 3,
-    "description": "Daisy is a gentle maltese who enjoys being pampered and brushed.",
-    "mainImage": "https://framerusercontent.com/images/BshlkyWmUNfQunw6ABacCRGM.jpg?width=1920&height=1282",
+    "description": "Daisy is a gentle and elegant 3-year-old maltese who loves being pampered and adored! With her silky white coat and sweet personality, Daisy is the perfect lap dog for anyone seeking a loyal and affectionate companion. She enjoys being brushed, going for short walks, and snuggling up with her favorite people. Daisy’s calm demeanor makes her ideal for apartment living or a quiet household, and her loving nature ensures she’ll bring warmth to your home. Adopt Daisy today and give this charming maltese the forever home she’s waiting for!",
+    "location": "Ha Noi City",
     "images": [
+      "https://framerusercontent.com/images/BshlkyWmUNfQunw6ABacCRGM.jpg?width=1920&height=1282",
       "https://www.servicedogtrainingschool.org/storage/app/uploads/public/648/083/cd2/648083cd2941c287420707.jpg",
       "https://www.hypropremium.com.au/wp-content/uploads/2024/02/maltese-feeding-guide.webp",
       "https://www.houndsy.com/cdn/shop/articles/what_is_the_average_weight_of_a_maltese_dog.webp?v=1753791571"
@@ -142,12 +152,13 @@
   {
     "id": 11,
     "name": "Luna",
-    "species": "cat",
+    "type": "cat",
     "breed": "british shorthair",
     "age": 2,
-    "description": "Luna is a calm and affectionate British Shorthair, ideal for a quiet household.",
-    "mainImage": "https://closerpets.com/cdn/shop/articles/boris-debusscher-8hj_0KqePuk-unsplash.webp?v=1688541002",
+    "description": "Luna is a serene 2-year-old British Shorthair with a plush coat and a calm, affectionate personality. This elegant cat loves lounging in cozy spots and enjoys gentle petting sessions, making her the perfect companion for a quiet household. Luna’s sweet demeanor and easygoing nature make her a wonderful fit for families or individuals looking for a low-maintenance yet loving pet. She’s content to watch the world go by from a sunny windowsill or curl up beside you for a relaxing evening. Adopt Luna today and let this charming British Shorthair bring tranquility and love to your home!",
+    "location": "Da Nang City",
     "images": [
+      "https://closerpets.com/cdn/shop/articles/boris-debusscher-8hj_0KqePuk-unsplash.webp?v=1688541002",
       "https://scampsandchamps.co.uk/wp-content/uploads/2025/02/pexels-lichtblick800-29750372.jpg",
       "https://cattime.com/wp-content/uploads/sites/14/2011/12/GettyImages-1361394182-e1699287824483.jpg",
       "https://a-z-animals.com/media/2023/11/shutterstock-91195580-huge-licensed-scaled.jpg"
@@ -156,12 +167,13 @@
   {
     "id": 12,
     "name": "Simba",
-    "species": "cat",
+    "type": "cat",
     "breed": "bengal",
     "age": 3,
-    "description": "Simba is an active bengal cat who loves climbing and exploring.",
-    "mainImage": "https://cdn.royalcanin-weshare-online.io/B1Zc8XoBBKJuub5qYbph/v3/bp-lot-2-bengal-couleur-human",
+    "description": "Simba is a striking 3-year-old Bengal cat with a wild appearance and a playful, adventurous spirit! This energetic feline loves climbing, exploring, and engaging in interactive play, making him a perfect match for an active household. Simba’s sleek, spotted coat and curious nature make him a captivating companion who’s always ready for a new adventure. Despite his high energy, he’s also affectionate and enjoys bonding with his people. If you’re looking for a lively and loving cat to keep you on your toes, adopt Simba today and let him bring excitement to your home!",
+    "location": "Nha Trang City",
     "images": [
+      "https://cdn.royalcanin-weshare-online.io/B1Zc8XoBBKJuub5qYbph/v3/bp-lot-2-bengal-couleur-human",
       "https://cdn.hswstatic.com/gif/shutterstock-2184723009-bengal-hero.jpg",
       "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:0,cw:1920,ch:1080,q:80,w:1920/Uwu9iN5UXkusxNwr2Dixuh.jpg",
       "https://cfa.org/wp-content/uploads/2024/03/BengalPortrait.jpg"
@@ -170,12 +182,13 @@
   {
     "id": 13,
     "name": "Misty",
-    "species": "cat",
+    "type": "cat",
     "breed": "siberian",
     "age": 4,
-    "description": "Misty is a fluffy Siberian cat with a gentle and affectionate personality.",
-    "mainImage": "https://www.treehugger.com/thmb/Z1KLsN0hs-KLhHM5riFadGXDirk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5-6e50cfaa6ab3451fbd72a391aad519a0.jpg",
+    "description": "Misty is a breathtaking 4-year-old Siberian cat with a luxurious, fluffy coat and a heart full of love! This gentle and affectionate feline is perfect for those seeking a loyal companion who enjoys both playtime and quiet cuddles. Misty’s thick fur and warm personality make her a wonderful addition to any home, especially one that appreciates her majestic beauty. She loves lounging in sunny spots and will happily follow you around for attention. Adopt Misty today and give this sweet Siberian the loving forever home she’s been waiting for!",
+    "location": "Ho Chi Minh City",
     "images": [
+      "https://www.treehugger.com/thmb/Z1KLsN0hs-KLhHM5riFadGXDirk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5-6e50cfaa6ab3451fbd72a391aad519a0.jpg",
       "https://images.squarespace-cdn.com/content/v1/62bf4e0a4460b11f3b234fce/62d0cc0c-986d-46c0-b093-60ca37729688/DSC03667.jpg",
       "https://cat-world.com/wp-content/uploads/2017/06/silver-siberian.jpg",
       "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/reference_guide/what_to_know_siberian_cat_ref_guide/1800x1200_what_to_know_siberian_cat_ref_guide.jpg"
@@ -184,12 +197,13 @@
   {
     "id": 14,
     "name": "Cleo",
-    "species": "cat",
+    "type": "cat",
     "breed": "birman",
     "age": 5,
-    "description": "Cleo is a gentle Birman cat who loves being held and cuddled.",
-    "mainImage": "https://www.thesprucepets.com/thmb/D5s03LINbIYpZuiG6uvBpKrAKXk=/3500x0/filters:no_upscale():strip_icc()/GettyImages-623368786-f66c97ad6d2d494287b448415f4340a8.jpg",
+    "description": "Cleo is a graceful 5-year-old Birman cat with a silky coat and a gentle, loving personality. This affectionate feline thrives on human connection, often seeking out cuddles and happily purring in your arms. Cleo’s calm and serene nature makes her a perfect companion for those who want a loyal and low-maintenance pet. She enjoys quiet evenings and will happily keep you company as you unwind. With her striking blue eyes and elegant demeanor, Cleo is ready to bring love and tranquility to her forever home—adopt her today!",
+    "location": "Ha Noi City",
     "images": [
+      "https://www.thesprucepets.com/thmb/D5s03LINbIYpZuiG6uvBpKrAKXk=/3500x0/filters:no_upscale():strip_icc()/GettyImages-623368786-f66c97ad6d2d494287b448415f4340a8.jpg",
       "https://a.storyblok.com/f/176726/1087x721/7fd20614e6/birman-cat-food.jpeg/m/1600x0",
       "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:0,cw:1920,ch:1080,q:80,w:1920/aimF4fyhkQ6h4ibm3L9jQS.jpg",
       "https://www.petful.com/wp-content/uploads/2012/07/birman1.jpg"
@@ -198,12 +212,13 @@
   {
     "id": 15,
     "name": "Oreo",
-    "species": "cat",
+    "type": "cat",
     "breed": "manx",
     "age": 2,
-    "description": "Oreo is a curious Manx cat with a playful nature and unique appearance.",
-    "mainImage": "https://www.dailypaws.com/thmb/apeCV9uw056K5avKY66RaLsuMFc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/manx-cat-grass-720114087-2000-f531fa6543e04675bd1be6c0ae123479.jpg",
+    "description": "Oreo is a charming 2-year-old Manx cat with a unique, tailless appearance and a playful, curious spirit! This delightful feline loves exploring her surroundings and engaging in fun, interactive games, making her a great fit for an active household. Oreo’s distinctive look and lively personality make her a standout companion who’s always ready to bring a smile to your face. She’s affectionate and enjoys bonding with her people, whether it’s through playtime or cozy cuddles. Adopt Oreo today and let this adorable Manx cat bring joy and excitement to your home!",
+    "location": "Da Nang City",
     "images": [
+      "https://www.dailypaws.com/thmb/apeCV9uw056K5avKY66RaLsuMFc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/manx-cat-grass-720114087-2000-f531fa6543e04675bd1be6c0ae123479.jpg",
       "https://web5.lifelearn.com/wp-content/uploads/2014/10/Manx.jpg",
       "https://s.yimg.com/ny/api/res/1.2/DLEHepMFQypJjDzQrDGaPw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg7Y2Y9d2VicA--/https://media.zenfs.com/en/the_spruce_pets_articles_780/0fe493d18c614b89ef6b5d7f336b0f93",
       "https://www.animalsaroundtheglobe.com/wp-content/uploads/2023/03/andreas-brun-f1SLpsPGODo-unsplash-1200x798.jpg.webp"
@@ -212,12 +227,13 @@
   {
     "id": 16,
     "name": "Shadow",
-    "species": "cat",
+    "type": "cat",
     "breed": "himalayan",
     "age": 6,
-    "description": "Shadow is a Himalayan cat with striking blue eyes and a calm temperament.",
-    "mainImage": "https://consumer-cms.petfinder.com/sites/default/files/images/content/Himalayan%20Cat%202.jpg",
+    "description": "Shadow is a stunning 6-year-old Himalayan cat with mesmerizing blue eyes and a serene, loving personality. This elegant feline is the epitome of calm, enjoying quiet moments lounging in cozy spots or cuddling with her favorite people. Shadow’s luxurious coat and gentle temperament make her a perfect companion for those seeking a loyal and low-maintenance pet. She loves being pampered and will reward you with soft purrs and affectionate nuzzles. Adopt Shadow today and let this beautiful Himalayan bring warmth and tranquility to your home!",
+    "location": "Nha Trang City",
     "images": [
+      "https://consumer-cms.petfinder.com/sites/default/files/images/content/Himalayan%20Cat%202.jpg",
       "https://www.rover.com/blog/wp-content/uploads/2020/10/Himalayan.jpg",
       "https://cdn.wamiz.fr/cdn-cgi/image/format=auto,quality=80,width=1200,height=675,fit=cover/animal/breed/cat/adult/676d215204ad9717820944.jpg",
       "https://framerusercontent.com/images/Ra4PtZcgRx5GVR2BABJBROqFJYA.jpg?width=4122&height=2748"
@@ -226,12 +242,13 @@
   {
     "id": 17,
     "name": "Pixie",
-    "species": "cat",
+    "type": "cat",
     "breed": "munchkin",
     "age": 1,
-    "description": "Pixie is an adorable munchkin cat with short legs and a playful spirit.",
-    "mainImage": "https://www.petrebels.com/en/wp-content/uploads/sites/3/2023/03/d-ng-ph-c-h-i-tri-u-4K4LuGXZnMs-unsplash-scaled.jpg",
+    "description": "Pixie is an irresistibly adorable 1-year-old Munchkin cat with her signature short legs and a playful, spirited personality! This tiny feline is full of energy, loving to chase toys and explore her surroundings with boundless curiosity. Pixie’s unique appearance and lively nature make her a delightful companion for families or individuals looking for a fun and affectionate pet. She’s quick to warm up to her people and enjoys both playtime and cuddles. Adopt Pixie today and let this charming Munchkin bring joy and laughter to your home!",
+    "location": "Ho Chi Minh City",
     "images": [
+      "https://www.petrebels.com/en/wp-content/uploads/sites/3/2023/03/d-ng-ph-c-h-i-tri-u-4K4LuGXZnMs-unsplash-scaled.jpg",
       "https://www.petrebels.com/en/wp-content/uploads/sites/3/2023/03/bobbi-wu-yJ1fX6PAXtU-unsplash-scaled.jpg",
       "https://consumer-cms.petfinder.com/sites/default/files/images/content/Munchkin%20Cat%203.jpg",
       "https://www.munchkincatguide.com/wp-content/uploads/2018/12/munchkincatslider2.jpg"
@@ -240,12 +257,13 @@
   {
     "id": 18,
     "name": "Sushi",
-    "species": "cat",
+    "type": "cat",
     "breed": "asian cat",
     "age": 3,
-    "description": "Sushi is a friendly Asian cat with a love for exploring new places.",
-    "mainImage": "https://consumer-cms.petfinder.com/sites/default/files/images/content/Asian%20Cat%203.jpg",
+    "description": "Sushi is a sleek and friendly 3-year-old Asian cat with a love for adventure and exploration! This curious feline is always ready to investigate new places or chase after a favorite toy, making her a great fit for an active household. Sushi’s affectionate and sociable nature ensures she gets along well with people and other pets, and her playful spirit will keep you entertained for hours. Whether she’s perched on a high shelf or curled up for a nap, Sushi is sure to bring joy to her new family. Adopt Sushi today and let this charming Asian cat become your new best friend!",
+    "location": "Ha Noi City",
     "images": [
+      "https://consumer-cms.petfinder.com/sites/default/files/images/content/Asian%20Cat%203.jpg",
       "https://consumer-cms.petfinder.com/sites/default/files/images/content/Asian%20Cat%204.jpg",
       "https://www.mascotarios.org/wp-content/uploads/2021/10/Gato-asiatico.jpg",
       "https://consumer-cms.petfinder.com/sites/default/files/images/content/Asian%20Cat%201.jpg"
@@ -254,12 +272,13 @@
   {
     "id": 19,
     "name": "Fluffy",
-    "species": "cat",
+    "type": "cat",
     "breed": "british longhair",
     "age": 4,
-    "description": "Fluffy is a sweet British Longhair who enjoys brushing and quiet evenings.",
-    "mainImage": "https://www.dailypaws.com/thmb/4cx_5J9AE9rLjgevJ_qNDYDQttc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/british-longhaired-kitten-107842351-2000-d3b39dfd9db241b09b32ff041a0f0b77.jpg",
+    "description": "Fluffy is a luxurious 4-year-old British Longhair with a plush coat and a sweet, gentle personality. This affectionate cat loves nothing more than being brushed and pampered, making her the perfect companion for those who enjoy quiet evenings and cozy cuddles. Fluffy’s calm demeanor and loving nature make her a wonderful fit for a relaxed household, and her beautiful fur adds a touch of elegance to any home. She’s ready to share her warmth and affection with a new family—adopt Fluffy today and let this charming British Longhair bring love to your life!",
+    "location": "Da Nang City",
     "images": [
+      "https://www.dailypaws.com/thmb/4cx_5J9AE9rLjgevJ_qNDYDQttc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/british-longhaired-kitten-107842351-2000-d3b39dfd9db241b09b32ff041a0f0b77.jpg",
       "https://www.dailypaws.com/thmb/-c6CPXmLmb_uUAW-6pXVu9iapzI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/british-longhair-sitting-on-deck-678870071-2000-42bab29834c94b408cb974ee950f1f57.jpg",
       "https://eu-central-1.graphassets.com/AnwjgMYRvQfWK3bRPjoq3z/output=format:webp/0jK9PybzS76rYc1grsVm",
       "https://images.squarespace-cdn.com/content/v1/648c724c414d354e6d623173/1729341081904-1KO444ZIT44SQD26R44Q/DSC05644-Edit.jpeg"
@@ -268,12 +287,13 @@
   {
     "id": 20,
     "name": "Tiger",
-    "species": "cat",
+    "type": "cat",
     "breed": "thai cat",
     "age": 5,
-    "description": "Tiger is an elegant Thai cat, intelligent and affectionate with people.",
-    "mainImage": "https://brit-petfood.com/file/nodes/product/065%20(2).jpg",
+    "description": "Tiger is an elegant 5-year-old Thai cat with a sleek coat and an intelligent, affectionate personality. This graceful feline loves engaging with her people, whether it’s through playful interactions or quiet moments of companionship. Tiger’s sharp mind makes her a quick learner, and her loving nature ensures she forms strong bonds with her family. She enjoys lounging in sunny spots and will happily keep you company throughout the day. Adopt Tiger today and let this stunning Thai cat bring beauty and warmth to your home!",
+    "location": "Nha Trang City",
     "images": [
+      "https://brit-petfood.com/file/nodes/product/065%20(2).jpg",
       "https://basepaws.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fqj2yxv39d6ig%2F1giHPkTlgoRr4yMVi7aDaX%2Fbe316786734d84b9f610341cc85ebc76%2F29.jpg&w=3840&q=75",
       "https://cdn.royalcanin-weshare-online.io/xCKqzGUBaxEApS7LNwVo/v2/bc383bl-bc55bl-thai-adult-standing",
       "https://framerusercontent.com/images/aPaIZexKRIX4piRCn7OqoakAB0.jpg?width=1920&height=1280"
@@ -282,12 +302,13 @@
   {
     "id": 21,
     "name": "Pug",
-    "species": "hamster",
-    "breed": null,
+    "type": "hamster",
+    "breed": "hamster",
     "age": 5,
-    "description": "Tiger is an elegant Thai cat, intelligent and affectionate with people.",
-    "mainImage": "https://alicepetmart.com/wp-content/uploads/2022/12/cach-chon-Hamster-co-ban.jpg",
+    "description": "Pug is an adorable 5-month-old hamster with a curious and energetic personality! This tiny bundle of joy loves scurrying through tunnels, spinning on his wheel, and exploring his surroundings. Pug’s small size and playful antics make him a perfect pet for those looking for a low-maintenance companion who brings endless entertainment. He enjoys being handled gently and will reward you with his charming curiosity. Adopt Pug today and give this delightful hamster a cozy, loving home where he can thrive!",
+    "location": "Ho Chi Minh City",
     "images": [
+      "https://alicepetmart.com/wp-content/uploads/2022/12/cach-chon-Hamster-co-ban.jpg",
       "https://images.ctfassets.net/rt5zmd3ipxai/2ZrVD8uiz534M8MEfeCvUZ/301deb04b7a47b8477aed0210225eb2e/ServiceCards-Hamster.png?fit=fill&fm=webp&h=482&w=1070&q=72,%20https://images.ctfassets.net/rt5zmd3ipxai/2ZrVD8uiz534M8MEfeCvUZ/301deb04b7a47b8477aed0210225eb2e/ServiceCards-Hamster.png?fit=fill&fm=webp&h=964&w=2140&q=72",
       "https://blog.omlet.us/wp-content/uploads/sites/6/2024/08/Hamster-drinking-from-the-Omlet-drinker-in-the-hamster-habitat.jpg",
       "https://mew.vn/wp-content/uploads/2021/12/phan-biet-gioi-tinh-chuot-hamster-1.jpg"
@@ -296,12 +317,13 @@
   {
     "id": 22,
     "name": "Habbit",
-    "species": "rabbit",
-    "breed": null,
+    "type": "rabbit",
+    "breed": "rabbit",
     "age": 5,
-    "description": "Tiger is an elegant Thai cat, intelligent and affectionate with people.",
-    "mainImage": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/25190642/202504Hub-Small-Pet-Rabbit-SM-scaled-1.jpg",
+    "description": "Habbit is a charming 5-month-old rabbit with a soft, fluffy coat and a gentle, curious nature. This sweet bunny loves hopping around, nibbling on fresh veggies, and exploring new spaces. Habbit’s friendly personality makes him a wonderful companion for families or individuals looking for a cuddly and low-maintenance pet. He enjoys gentle petting and will happily snuggle up for some quality bonding time. Adopt Habbit today and let this adorable rabbit bring joy and warmth to your home!",
+    "location": "Ha Noi City",
     "images": [
+      "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/25190642/202504Hub-Small-Pet-Rabbit-SM-scaled-1.jpg",
       "https://www.thesprucepets.com/thmb/iDUukmHiOhz2Xoo4xMWrW2PpGUU=/3300x0/filters:no_upscale():strip_icc()/white-hotot-rabbit-eating-grass-509265984-5c0da06546e0fb0001366ac0.jpg",
       "https://www.humaneworld.org/sites/default/files/2019/03/rabbit-475261_0.jpg",
       "https://oshiprint.in/image/cache/catalog/poster/new/mqp889-1100x733.jpeg.webp"

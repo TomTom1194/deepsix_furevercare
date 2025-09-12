@@ -14,11 +14,10 @@
     "title": "Severe Skin Allergy in a Bengal Cat",
     "content1": "Luna, a 3-year-old Bengal cat, arrived with hair loss and constant scratching.",
     "content2": "Tests confirmed a severe allergy caused by food sensitivity.",
-    "name": "Dr. Sarah Johnson",
+    "name": "Dr. Michael Nguyen",
     "date": "2025-07-18",
     "image1": "https://example.com/images/maltese_1.jpg",
     "image2": "https://example.com/images/maltese_2.jpg"
-
   },
   {
     "id": 3,
@@ -35,11 +34,10 @@
     "title": "Car Accident Emergency – Pitbull",
     "content1": "Rocky, a pitbull, was rushed in after being hit by a car.",
     "content2": "He suffered multiple fractures and internal bleeding.",
-    "name": "Dr. Daniel Lee",
+    "name": "Dr. Michael Nguyen",
     "date": "2025-08-05",
     "image1": "https://example.com/images/maltese_1.jpg",
     "image2": "https://example.com/images/maltese_2.jpg"
-
   },
   {
     "id": 5,
@@ -50,7 +48,6 @@
     "date": "2025-05-28",
     "image1": "https://example.com/images/maltese_1.jpg",
     "image2": "https://example.com/images/maltese_2.jpg"
-
   },
   {
     "id": 6,
@@ -61,7 +58,6 @@
     "date": "2025-07-01",
     "image1": "https://example.com/images/maltese_1.jpg",
     "image2": "https://example.com/images/maltese_2.jpg"
-
   },
   {
     "id": 7,
@@ -72,7 +68,6 @@
     "date": "2025-04-15",
     "image1": "https://example.com/images/maltese_1.jpg",
     "image2": "https://example.com/images/maltese_2.jpg"
-
   },
   {
     "id": 8,
@@ -83,7 +78,6 @@
     "date": "2025-06-10",
     "image1": "https://example.com/images/maltese_1.jpg",
     "image2": "https://example.com/images/maltese_2.jpg"
-
   },
   {
     "id": 9,
@@ -94,7 +88,6 @@
     "date": "2025-09-01",
     "image1": "https://example.com/images/maltese_1.jpg",
     "image2": "https://example.com/images/maltese_2.jpg"
-
   },
   {
     "id": 10,
@@ -105,6 +98,5 @@
     "date": "2025-08-20",
     "image1": "https://example.com/images/maltese_1.jpg",
     "image2": "https://example.com/images/maltese_2.jpg"
-
   }
 ]

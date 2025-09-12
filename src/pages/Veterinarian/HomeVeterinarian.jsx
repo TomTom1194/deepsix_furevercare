@@ -1,6 +1,8 @@
-import React, { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import vets from "../../Data/Vet/veterinarian.json";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./TitleHomeVets.css";
 
 // Dữ liệu slide cho carousel
@@ -23,45 +25,109 @@ const slides = [
 ];
 
 const HomeVeterinarian = () => {
+  const closeNavbar = () => {
+    const navbarCollapse = document.getElementById("navbarLinks");
+    if (navbarCollapse && navbarCollapse.classList.contains("show")) {
+      const bsCollapse = window.bootstrap.Collapse.getInstance(navbarCollapse);
+      bsCollapse.hide();
+    }
+  };
+  const [currentUser, setCurrentUser] = useState(null);
+  const location = useLocation();
   const navigate = useNavigate();
 
   const handleClick = (id) => {
     navigate(`/veterinarian/${id}`);
   };
 
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: true });
+    const storedUser = localStorage.getItem("currentUser");
+    if (storedUser) {
+      setCurrentUser(JSON.parse(storedUser));
+    }
+  }, [location]);
 
   return (
     <div>
-      {/* Header phía trên carousel */}
-      <div
-        className="container py-3 position-relative d-none d-md-block"
-        style={{ minHeight: "120px" }}
-      >
-        {/* Logo bên trái */}
-        <div className="position-absolute top-50 start-0 translate-middle-y">
-          <img
-            src="./images/logo.png"
-            alt="Logo"
-            style={{ maxHeight: "100px", width: "auto" }}
-          />
+      {/* Header chung */}
+      <nav className="navbar navbar-expand-md bg-light">
+        <div className="container">
+          {/* Logo bên trái */}
+          <NavLink className="navbar-brand" to="/">
+            <img
+              src="./images/logo.png"
+              alt="Logo"
+              style={{ maxHeight: "60px", width: "auto" }}
+            />
+          </NavLink>
+
+          {/* Nút user (bên phải trên mobile + desktop) */}
+          <div className="d-flex align-items-center order-md-3">
+            {currentUser && currentUser.role === "user" && (
+              <Link
+                to="/petowner/myprofile"
+                className="btn btn-sm ms-2"
+                style={{ backgroundColor: "#7f5539", color: "white" }}
+              >
+                Hi, {currentUser.name}
+              </Link>
+            )}
+            {currentUser && currentUser.role === "vet" && (
+              <Link
+                to="/veterinarian/myprofile"
+                className="btn btn-sm ms-2"
+                style={{ backgroundColor: "#7f5539", color: "white" }}
+              >
+                Hi, {currentUser.name}
+              </Link>
+            )}
+
+            {/* Toggle menu chỉ hiện khi mobile */}
+            <button
+              className="navbar-toggler ms-2"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mainNavbar"
+              aria-controls="mainNavbar"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          {/* Menu (giữa desktop, dưới mobile) */}
+          <div
+            className="collapse navbar-collapse justify-content-center order-md-2"
+            id="mainNavbar"
+          >
+            <ul
+              className="navbar-nav d-flex justify-content-center text-center text-md-start"
+              style={{ fontWeight: "300", gap: "30px", fontSize: "1rem" }}
+            >
+              <li className="nav-item">
+                <NavLink
+                  className="nav-link text-dark"
+                  to="/petowner/home"
+                  onClick={closeNavbar}
+                >
+                  Pet Owner
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  className="nav-link text-dark"
+                  to="/animalshelter/animal"
+                  onClick={closeNavbar}
+                >
+                  Animal Shelter
+                </NavLink>
+              </li>
+            </ul>
+          </div>
         </div>
-
-        {/* Tiêu đề căn giữa ngang + dọc */}
-        <h1 className="vet-title position-absolute top-50 start-50 translate-middle">
-          Veterinarian
-        </h1>
-      </div>
-
-      {/* Header cho mobile */}
-      <div className="container py-3 d-md-none text-center">
-        <img
-          src="./images/logo.png"
-          alt="Logo"
-          style={{ maxHeight: "80px", width: "auto" }}
-          className="mb-2"
-        />
-        <h1 className="vet-title">Veterinarian</h1>
-      </div>
+      </nav>
 
       {/* Carousel */}
       <div
@@ -161,14 +227,6 @@ const HomeVeterinarian = () => {
                     <p className="card-text vet-info">
                       <strong>Working Hours:</strong>
                       <br /> {vet.working_time}
-                    </p>
-                    <p className="card-text vet-info">
-                      <strong>Email:</strong>{" "}
-                      <a href={`mailto:${vet.email}`}>{vet.email}</a>
-                    </p>
-                    <p className="card-text vet-info">
-                      <strong>Phone:</strong>{" "}
-                      <a href={`tel:${vet.phone}`}>{vet.phone}</a>
                     </p>
                   </div>
                 </div>

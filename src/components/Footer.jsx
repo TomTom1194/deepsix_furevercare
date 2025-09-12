@@ -61,24 +61,18 @@ function HomeFooter() {
         <div className="container">
           <div className="row text-center text-md-start align-items-start">
             {/* Logo + slogan + social icons */}
-            <div className="col-md-3 mb-4 mb-md-0">
+            <div className="col-md-3 mb-4 mb-md-0 d-flex flex-column align-items-center align-items-md-start mt-n3">
               <div className="d-flex align-items-center mb-2">
                 <img
                   src="/images/logo.png"
                   alt="FurEver Care Logo"
-                  style={{
-                    height: "40px",
-                    width: "40px",
-                    objectFit: "contain",
-                  }}
-                  className="me-2"
+                  className="footer-logo me-2"
                 />
-                <h2 className="fw-bold mb-0">FurEver Care</h2>
               </div>
-              <p className="mb-2 small">
+              <p className="mb-2 small text-center text-md-start">
                 Dedicated to the health and happiness of your beloved pets.
               </p>
-              <div className="d-flex gap-3 mt-2">
+              <div className="d-flex gap-3 mt-2 justify-content-center justify-content-md-start">
                 <a href="#" className="fs-5 text-dark">
                   <i className="fab fa-facebook-f"></i>
                 </a>
@@ -97,7 +91,9 @@ function HomeFooter() {
             {/* Quick Links chia 3 nhóm */}
             <div className="col-md-5 mb-4 mb-md-0 d-flex justify-content-center gap-5">
               <div>
-                <h6 className="fw-bold">Pet Owner</h6>
+                <h6 className="fw-bold" style={{ color: "#7f5539" }}>
+                  Pet Owner
+                </h6>
                 <ul className="list-unstyled">
                   <li>
                     <Link to="/" className="text-dark text-decoration-none">
@@ -115,7 +111,9 @@ function HomeFooter() {
                 </ul>
               </div>
               <div>
-                <h6 className="fw-bold">Vet</h6>
+                <h6 className="fw-bold" style={{ color: "#7f5539" }}>
+                  Vet
+                </h6>
                 <ul className="list-unstyled">
                   <li>
                     <Link
@@ -136,7 +134,9 @@ function HomeFooter() {
                 </ul>
               </div>
               <div>
-                <h6 className="fw-bold">Animal Shelter</h6>
+                <h6 className="fw-bold" style={{ color: "#7f5539" }}>
+                  Animal Shelter
+                </h6>
                 <ul className="list-unstyled">
                   <li>
                     <Link
@@ -160,19 +160,30 @@ function HomeFooter() {
 
             {/* Newsletter */}
             <div className="col-md-4 text-center text-md-start ps-md-4 border-start">
-              <h6 className="fw-bold">Subscribe to our newsletter</h6>
+              <h6 className="fw-bold" style={{ color: "#7f5539" }}>
+                Subscribe to our newsletter
+              </h6>
               <p className="small text-muted mb-2">
                 Get the latest updates and exclusive offers.
               </p>
-              <form className="d-flex mb-3">
+              <form
+                className="d-flex align-items-center mb-4"
+                style={{ marginTop: "20px" }} // hạ thấp xuống
+              >
                 <input
                   type="email"
                   className="form-control me-2"
                   placeholder="Enter your email"
+                  style={{ flex: "1" }} // input chiếm phần còn lại
                 />
                 <button
                   className="btn"
-                  style={{ backgroundColor: "#7f5539", color: "#fff" }}
+                  type="submit"
+                  style={{
+                    backgroundColor: "#7f5539",
+                    color: "#fff",
+                    whiteSpace: "nowrap", // tránh nút bị xuống dòng
+                  }}
                 >
                   Sign Up
                 </button>

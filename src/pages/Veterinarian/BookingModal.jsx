@@ -116,7 +116,6 @@ function BookingModal() {
     setRecentlyBook({ day: selectedSlot.day, hour: selectedSlot.hour, month });
     setShowForm(false);
     setSelectedSlot(null);
-    setFormData({ pet_id: "", owner: "", email: "", phone: "", reason: "Cleaning" });
     alert("Booking Successful!");
   };
 

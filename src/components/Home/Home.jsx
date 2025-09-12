@@ -26,7 +26,7 @@ const Home = () => {
     if (existingUser.role === "user") {
       navigate("/petowner");
     } else {
-      navigate("/veterinarian")
+      navigate("/veterinarian/myprofile")
     }
   };
 

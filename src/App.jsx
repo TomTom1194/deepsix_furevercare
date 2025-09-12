@@ -23,12 +23,13 @@ import petcare from "../src/Data/Petowner/petcare.json";
 import petproduct from "../src/Data/Petowner/petproduct.json";
 
 //Shelter
-import Events from "./pages/Shelter/Events";
-import Gallery from "./pages/Shelter/Gallery";
-import HomeShelter from "./pages/Shelter/HomeShelter";
-import ShelterContact from "./pages/Shelter/ShelterContact";
-import Success from "./pages/Shelter/Success";
+import Animals from "./Data/Animalshelter/animalshelter.json";
 import AnimalShelter from "./Component/animalshelter/gallery/AnimalShelter";
+import AnimalDetail from "./Component/animalshelter/gallery/AnimalDetail";
+import SuccessStory from "./Component/animalshelter/successstory/SuccessStory";
+import StoryDetail from "./Component/animalshelter/successstory/StoryDetail";
+import Event from "./Component/animalshelter/event/Event";
+import ShelterContact from "./Component/animalshelter/sheltercontact/ShelterContact";
 
 //Vet
 import HomeVet from "./pages/Veterinarian/HomeVeterinarian";
@@ -37,8 +38,10 @@ import MyProfile from "./Component/pet_owner/myprofile/MyProfile";
 import MyPetDetail from "./Component/pet_owner/myprofile/MyPetDetail";
 
 import "./index.css";
+import "./animalshelter.css";
 import SignUp from "./components/SignUp/SignUp";
 import HomeVeterinarian from "./pages/Veterinarian/HomeVeterinarian";
+import VetDetail from "./pages/Veterinarian/DetailVets";
 
 export default function App() {
   return (
@@ -74,10 +77,11 @@ export default function App() {
         <Route path="/veterinarian" element={<VetLayout />}>
           <Route index element={<HomeVeterinarian />} />
           <Route path=":id" element={<VetProfile />} />
+          <Route path="myprofile" element={<VetDetail />} />
         </Route>
 
         {/* Animal Shelter routes */}
-        {/* <Route path="/animalshelter" element={<AnimalShelterLayout />}>
+        <Route path="/animalshelter" element={<AnimalShelterLayout />}>
           <Route path="animal" element={<AnimalShelter />}></Route>
           <Route
             path="animal/:id"
@@ -87,7 +91,7 @@ export default function App() {
           <Route path="story/:id" element={<StoryDetail />}></Route>
           <Route path="event" element={<Event />}></Route>
           <Route path="sheltercontact" element={<ShelterContact />}></Route>
-        </Route> */}
+        </Route>
 
         {/* 404 */}
         <Route

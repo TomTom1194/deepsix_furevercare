@@ -1,5 +1,5 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { NavLink, useLocation, Link } from "react-router-dom";
 
 function Header() {
   const closeNavbar = () => {
@@ -9,6 +9,16 @@ function Header() {
       bsCollapse.hide();
     }
   };
+
+  const [currentUser, setCurrentUser] = useState(null);
+  const location = useLocation();
+
+  useEffect(() => {
+    const storedUser = localStorage.getItem("currentUser");
+    if (storedUser) {
+      setCurrentUser(JSON.parse(storedUser));
+    }
+  }, [location]);
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white ps-lg-5 px-3 shadow-sm fixed-top">
@@ -85,6 +95,43 @@ function Header() {
                 Shelter Contact
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink
+                className="nav-link text-dark"
+                to="/petowner/home"
+                onClick={closeNavbar}
+              >
+                Pet Owner
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className="nav-link text-dark"
+                to="/veterinarian"
+                onClick={closeNavbar}
+              >
+                Veterinarian
+              </NavLink>
+            </li>
+
+            {currentUser && currentUser.role === "user" && (
+              <Link
+                to="/petowner/myprofile"
+                className="btn"
+                style={{ backgroundColor: "#7f5539", color: "white" }}
+              >
+                Hi, {currentUser.name}
+              </Link>
+            )}
+            {currentUser && currentUser.role === "vet" && (
+              <Link
+                to="/veterinarian/myprofile"
+                className="btn"
+                style={{ backgroundColor: "#7f5539", color: "white" }}
+              >
+                Hi, {currentUser.name}
+              </Link>
+            )}
           </ul>
         </div>
       </div>

@@ -22,6 +22,29 @@ export default function AnimalShelter() {
     },
   ];
 
+  const location = [
+    {
+      "id": 1,
+      "name": "-- Select Location --"
+    },
+    {
+      "id": 2,
+      "name": "Ho Chi Minh City"
+    },
+    {
+      "id": 3,
+      "name": "Ha Noi City"
+    },
+    {
+      "id": 4,
+      "name": "Da Nang City"
+    },
+    {
+      "id": 5,
+      "name": "Nha Trang City"
+    },
+  ]
+
   // Function Filter
   const [filters, setFilters] = useState({
     type: "",
@@ -44,9 +67,7 @@ export default function AnimalShelter() {
         animal.type.toLowerCase().includes(filters.type.toLowerCase()) &&
         animal.breed.toLowerCase().includes(filters.breed.toLowerCase()) &&
         (filters.age === "" || animal.age === Number(filters.age)) &&
-        animal.description // đổi lại thành location sau
-          .toLowerCase()
-          .includes(filters.location.toLowerCase())
+        (filters.location === "" || animal.location === filters.location)
       );
     });
   }, [filters]);
@@ -154,14 +175,18 @@ export default function AnimalShelter() {
             />
           </div>
           <div className="col-md-4">
-            <input
-              type="text"
+            <select
               name="location"
-              placeholder="Filter by Location"
-              className="form-control"
+              className="form-select"
               value={filters.location}
               onChange={handleFilterChange}
-            />
+            >
+              {location.map((loc) => (
+                <option key={loc.id} value={loc.id === 1 ? "" : loc.name}>
+                  {loc.name}
+                </option>
+              ))}
+            </select>
           </div>
         </div>
       </div>

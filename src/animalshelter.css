@@ -1,0 +1,74 @@
+.slogan {
+  min-height: calc(1.5em * 2);
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+.custom-card-hover {
+  transition: all 0.3s ease;
+}
+
+.custom-card-hover:hover {
+  box-shadow: 2px 2px 0 4px black !important;
+  transform: translateY(-4px);
+  /* thêm hiệu ứng nhấc nhẹ card */
+}
+
+.card-text {
+  display: "-webkit-box" !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: "hidden";
+}
+
+.btn-outline-secondary {
+  background-color: #fff;
+  color: #7f5539;
+  border: 2px solid #7f5539;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #7f5539;
+  color: white;
+}
+
+.text-truncate-3 {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4;
+  max-height: calc(1.4em * 3);
+}
+
+.story-content {
+  text-indent: 1em;
+  text-align: justify;
+  line-height: 1.6;
+}

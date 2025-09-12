@@ -40,5 +40,47 @@
             }
         ],
         "notes": "Lucy is playful but sometimes lazy. Needs more exercise."
+    },
+    {
+        "id": "P2",
+        "name": "Jerry",
+        "spieces": "cat",
+        "breed": "Thai Cat",
+        "age": 2,
+        "weight": "1kg",
+        "owner_id": 1,
+        "vaccine_status": "vaccined",
+        "mainImage": "https://consumer-cms.petfinder.com/sites/default/files/images/content/British%20Shorthair%20Cat%203.jpg",
+        "images": [
+            "https://cdn.royalcanin-weshare-online.io/mVbc9noBBKJuub5qA7pQ/v3/bp-lot-2-british-shorthair-color-outdoor",
+            "https://closerpets.com/cdn/shop/articles/boris-debusscher-8hj_0KqePuk-unsplash.webp?v=1688541002",
+            "https://langkawiwildlifepark.com.my/wp-content/uploads/2024/04/British-Shorthair.jpg"
+        ],
+        "medicalHistory": [
+            {
+                "date": "2025-01-12",
+                "vet": "Dr. Smith",
+                "reason": "Annual check-up",
+                "diagnosis": "Healthy",
+                "treatment": "N/A"
+            },
+            {
+                "date": "2025-03-05",
+                "vet": "Dr. Alice",
+                "reason": "Vaccination",
+                "diagnosis": "Normal",
+                "treatment": "Rabies vaccine"
+            }
+        ],
+        "appointments": [
+            {
+                "date": "2025-09-20",
+                "time": "15:00",
+                "vet": "Dr. Brown",
+                "status": "upcoming",
+                "treatment": "Grooming"
+            }
+        ],
+        "notes": "Lucy is playful but sometimes lazy. Needs more exercise."
     }
 ]

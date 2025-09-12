@@ -8,16 +8,9 @@
     },
     {
         "id": 2,
-        "name": "Dr. Emily Carter",
+        "name": "Dr. Michael Nguyen",
         "role": "vet",
         "email": "emily.johnson@example.com",
         "phone": "+1-202-555-0175"
-    },
-    {
-        "id": 3,
-        "name": "Michael Brown",
-        "role": "staff",
-        "email": "michael.brown@example.com",
-        "phone": "+1-202-555-0198"
     }
 ]

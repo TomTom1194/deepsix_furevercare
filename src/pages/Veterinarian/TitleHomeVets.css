@@ -3,16 +3,14 @@
 
 /* Header title */
 .vet-title {
-  font-family: "Noto Sans", sans-serif; /* đổi sang Noto Sans */
+  font-family: "Noto Sans", sans-serif;
+  /* đổi sang Noto Sans */
   font-size: 3rem;
-  font-weight: 600; /* semi-bold */
+  font-weight: 600;
+  /* semi-bold */
   color: #7f5539;
   text-transform: uppercase;
   letter-spacing: 6px;
-
-  /* Shadow vàng ánh kim */
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3), 0 0 8px rgba(126, 85, 57, 0.6),
-    0 0 15px rgba(192, 152, 83, 0.5);
 
   /* Animation sang trọng */
   animation: fadeInLuxury 1.2s ease-in-out;
@@ -21,8 +19,6 @@
 
 .vet-title:hover {
   color: #a47148;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4), 0 0 12px rgba(192, 152, 83, 0.7),
-    0 0 20px rgba(255, 215, 0, 0.6);
 }
 
 /* Keyframes luxury xuất hiện */
@@ -31,6 +27,7 @@
     opacity: 0;
     transform: translateY(-20px) scale(0.95);
   }
+
   to {
     opacity: 1;
     transform: translateY(0) scale(1);
@@ -41,11 +38,12 @@
 .section-title {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.8rem;
-  font-weight: 600; /* semi-bold */
+  font-weight: 600;
+  /* semi-bold */
   color: #7f5539;
   text-transform: uppercase;
   letter-spacing: 2px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+
   background: #fff;
 }
 
@@ -54,35 +52,43 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  background: #fffdf9;
-  border: 1px solid transparent; /* tránh nhảy layout */
+
+  background: #fff;
+  border: 1px black solid transparent;
+  /* tránh nhảy layout */
 }
 
 .vet-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 2px 0 4px black !important;
 
   /* hiệu ứng viền luxury */
-  border-top: 1px solid #000; /* mảnh */
-  border-left: 1px solid #000; /* mảnh */
-  border-right: 3px solid #000; /* đậm */
-  border-bottom: 3px solid #000; /* đậm */
+  border-top: 1px solid #000;
+  /* mảnh */
+  border-left: 1px solid #000;
+  /* mảnh */
+  border-right: 3px solid #000;
+  /* đậm */
+  border-bottom: 3px solid #000;
+  /* đậm */
 }
 
 /* Image inside card */
 .vet-card-img {
   height: 200px;
   width: 100%;
-  object-fit: cover; /* lấp đầy khung */
-  object-position: 50% 30%; /* canh giữa, đẩy focus xuống 30% để giữ mặt */
+  object-fit: cover;
+  /* lấp đầy khung */
+  object-position: 50% 10%;
+  /* canh giữa, đẩy focus xuống 30% để giữ mặt */
 }
 
 /* Card title */
 .vet-card-title {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.2rem;
-  font-weight: 600; /* semi-bold */
+  font-weight: 600;
+  /* semi-bold */
   color: #7f5539;
   margin-bottom: 10px;
 }
@@ -91,7 +97,8 @@
 .vet-card .card-text strong,
 .vet-card .card-text-specialization {
   font-family: "Noto Sans", sans-serif;
-  font-weight: 600; /* in đậm */
+  font-weight: 600;
+  /* in đậm */
 
   color: #333;
 }
@@ -118,17 +125,40 @@
     font-size: 1rem;
   }
 }
+
 .vet-specialization {
   font-family: "Noto Sans", sans-serif;
-  font-weight: 600; /* semi-bold */
-  text-transform: uppercase; /* viết hoa toàn bộ */
+  font-weight: 600;
+  /* semi-bold */
+  text-transform: uppercase;
+  /* viết hoa toàn bộ */
   color: #333;
   margin-bottom: 8px;
 }
+
 .vet-info {
   text-align: center;
   font-family: "Noto Sans", sans-serif;
   font-size: 0.95rem;
   color: #444;
   margin-bottom: 6px;
+}
+
+/* HomeFooter.css */
+.footer-logo {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  margin-top: -30px;
+  /* dịch lên trên cho desktop */
+}
+
+@media (max-width: 768px) {
+  .footer-logo {
+    height: 80px;
+    /* thu nhỏ logo trên mobile */
+    width: 80px;
+    margin-top: -10px;
+    /* dịch lên ít hơn để không bị chật */
+  }
 }

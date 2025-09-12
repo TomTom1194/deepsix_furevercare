@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Saigon Pet Rescue",
+    "address": "21bis Hau Giang, Tan Binh, Ho Chi Minh, VietNam",
+    "phone": "+84 987 654 321",
+    "email": "contact@saigonrescue.com",
+    "hours": "Mon - Fri, 9:00 AM - 6:00 PM",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0466913070227!2d106.66085841023961!3d10.80773595857173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293ca6cabe9b%3A0xfe7e5f0c4d1672c3!2zMjFCaXMgSOG6rXUgR2lhbmcsIFBoxrDhu51uZyA0LCBUw6JuIELDrG5oLCBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1757488921581!5m2!1sen!2s"
+  },
+  {
+    "id": 2,
+    "name": "Hanoi Animal Rescue",
+    "address": "12 Kim Ma, Ba Dinh, Ha Noi, VietNam",
+    "phone": "+84 912 345 678",
+    "email": "info@hanoirescue.org",
+    "hours": "Daily, 9:00 AM - 5:00 PM",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.912029534955!2d105.81551437446407!3d21.036237687560154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abedfb56dbf3%3A0x52bbd55c07f3d8b0!2sKim%20M%C3%A3%2C%20Ba%20%C4%90%C3%ACnh%2C%20H%C3%A0%20N%E1%BB%99i!5e0!3m2!1sen!2s!4v1757490000000!5m2!1sen!2s"
+  },
+  {
+    "id": 3,
+    "name": "Da Nang Pet Shelter",
+    "address": "45 Tran Phu, Hai Chau, Da Nang, VietNam",
+    "phone": "+84 936 111 222",
+    "email": "support@danangshelter.vn",
+    "hours": "Tue - Sun, 8:30 AM - 6:30 PM",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.529320778581!2d108.21832637433122!3d16.06804198461233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219cbbf3a2d2f%3A0x4d4f69f3f36d0ef3!2zVHLhuqduIFBow7osIMSQw6AgTuG6rW5n!5e0!3m2!1sen!2s!4v1757490500000!5m2!1sen!2s"
+  },
+  {
+    "id": 4,
+    "name": "Hue Animal Aid",
+    "address": "78 Le Loi, Hue, VietNam",
+    "phone": "+84 932 987 654",
+    "email": "hello@hueaid.org",
+    "hours": "Mon - Sat, 9:00 AM - 4:00 PM",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.3369083983746!2d107.58087217432596!3d16.46371128428639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a13df12f0a2b%3A0xe4d9c28e79d26e53!2zTMOqIFRow6FpIFRo4bqhaSDEkMO0bmc!5e0!3m2!1sen!2s!4v1757490700000!5m2!1sen!2s"
+  },
+  {
+    "id": 5,
+    "name": "Can Tho Pet Care",
+    "address": "25 Nguyen Trai, Ninh Kieu, Can Tho, VietNam",
+    "phone": "+84 915 223 344",
+    "email": "cantho@petcare.vn",
+    "hours": "Daily, 8:00 AM - 6:00 PM",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.2957263013894!2d105.77828517421105!3d10.03418637232592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a0893c1ee5d6f7%3A0x4cfb91b3f6aef7a5!2zTmd1eeG7hW4gVHLDoGksIE5pbmggS2nhu4F1LCBD4bqjbiBUaMO0!5e0!3m2!1sen!2s!4v1757490900000!5m2!1sen!2s"
+  },
+  {
+    "id": 6,
+    "name": "Hai Phong Animal Rescue",
+    "address": "56 Lach Tray, Ngo Quyen, Hai Phong, VietNam",
+    "phone": "+84 938 222 111",
+    "email": "hp@animalrescue.vn",
+    "hours": "Mon - Fri, 9:00 AM - 6:00 PM",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.332153336049!2d106.68808447446294!3d20.86052049792886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7a3a19cc3e4f%3A0x28de36a4c24e8c1b!2zTMOgbmggVHJhesOgLCBOZ8awIFF14bqtbiwgSOG6o2kgUGjDsm5n!5e0!3m2!1sen!2s!4v1757491000000!5m2!1sen!2s"
+  },
+  {
+    "id": 7,
+    "name": "Nha Trang Pet Rescue",
+    "address": "32 Tran Hung Dao, Nha Trang, Khanh Hoa, VietNam",
+    "phone": "+84 966 444 555",
+    "email": "nhatrang@petrescue.vn",
+    "hours": "Tue - Sun, 9:00 AM - 5:30 PM",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.4234564900376!2d109.18935817426513!3d12.245303889144043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317067aa6e6a7a2f%3A0xf3e9422b6d45e8d4!2zVHLhuqduIEjGsG5nIMSQw6BvLCBOaGEgVHJhbmc!5e0!3m2!1sen!2s!4v1757491100000!5m2!1sen!2s"
+  },
+  {
+    "id": 8,
+    "name": "Quy Nhon Animal Care",
+    "address": "67 Le Duan, Quy Nhon, Binh Dinh, VietNam",
+    "phone": "+84 977 111 888",
+    "email": "quynhon@animalcare.vn",
+    "hours": "Mon - Sat, 8:30 AM - 6:00 PM",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.4226198210026!2d109.22936027429064!3d13.782711896064285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3170f88cfd6d4fb9%3A0x9b3d5c7a9cf2df3!2zTMOqIFThuqFpIFRo4bunIMSQw6BvLCBRdeG7mSBOaMOibg!5e0!3m2!1sen!2s!4v1757491200000!5m2!1sen!2s"
+  },
+  {
+    "id": 9,
+    "name": "Vung Tau Pet Shelter",
+    "address": "89 Le Loi, Vung Tau, VietNam",
+    "phone": "+84 955 333 777",
+    "email": "vungtau@shelter.vn",
+    "hours": "Daily, 9:00 AM - 6:00 PM",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.761339796023!2d107.07956627426757!3d10.345936969815072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31756f7e4b8d7a67%3A0x5a4f3ecf9c3422c9!2zTMOqIFRow6FpIFRo4bunIMSQw6BvLCBWxaluZyBUw6p1!5e0!3m2!1sen!2s!4v1757491300000!5m2!1sen!2s"
+  },
+  {
+    "id": 10,
+    "name": "Phu Quoc Animal Welfare",
+    "address": "123 Tran Hung Dao, Duong Dong, Phu Quoc, VietNam",
+    "phone": "+84 934 555 666",
+    "email": "phuquoc@animalwelfare.vn",
+    "hours": "Mon - Fri, 8:00 AM - 5:30 PM",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.518002292059!2d103.96204737426386!3d10.227018671368527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a8b4484d48a94f%3A0x69b35f9b0f47ce6e!2zVHLhuqduIFBow7luZyDEkMO0bmc!5e0!3m2!1sen!2s!4v1757491400000!5m2!1sen!2s"
+  }
+]

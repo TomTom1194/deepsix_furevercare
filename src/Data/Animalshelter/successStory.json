@@ -1,52 +1,52 @@
 [
-    {
-        "id": 1,
-        "title": "From Shelter to Loving Home",
-        "author": "Jane Doe",
-        "date": "2025-01-12",
-        "content1": "Max, a golden retriever, was rescued from the streets and brought to our shelter. He was shy and underweight when he first arrived.",
-        "content2": "After weeks of care and training, Max found a loving family who adores him. He now enjoys long walks and playtime with kids every day.",
-        "image1": "https://people.com/thmb/RcukqAgXQN6t9ve5Z_PcPxJcegk=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(692x272:694x274)/dog-saved-080923-5-7d3a47cc7ba5439683f6cad265e93017.jpg",
-        "image2": "https://a-us.storyblok.com/f/1016262/5472x3648/33b730b0ba/adobestock_118021847.jpeg"
-    },
-    {
-        "id": 2,
-        "title": "Luna’s New Beginning",
-        "author": "Michael Tran",
-        "date": "2025-02-05",
-        "content1": "Luna, a British Shorthair cat, was abandoned in a small box outside the shelter. She was scared and distrustful of humans.",
-        "content2": "With patience and affection, Luna learned to trust again and was adopted by a quiet couple who give her all the love she deserves.",
-        "image1": "https://pethelpful.com/.image/w_3840,q_auto:good,c_fill,ar_4:3,g_xy_center,x_787,y_637/NDowMDAwMDAwMDAwMDYyNzM2/gray-cat-2.png",
-        "image2": "https://cdn.shopify.com/s/files/1/2668/1922/files/british-shorthair-1.jpg?v=1689089942"
-    },
-    {
-        "id": 3,
-        "title": "Rocky Finds His Forever Family",
-        "author": "Emily Nguyen",
-        "date": "2025-03-20",
-        "content1": "Rocky, a pitbull, was surrendered by his previous owners due to financial struggles. Despite his past, he remained loyal and friendly.",
-        "content2": "He quickly won the hearts of a young couple and is now living happily on a farm with plenty of space to run around.",
-        "image1": "https://i.ytimg.com/vi/HISLjHTVeRg/maxresdefault.jpg",
-        "image2": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165602/202106American-Pit-Bull-terrier-1362582590-scaled-1.jpg"
-    },
-    {
-        "id": 4,
-        "title": "Bella’s Journey to Happiness",
-        "author": "Sarah Le",
-        "date": "2025-04-15",
-        "content1": "Bella, a poodle, came to the shelter with severe matted fur and anxiety issues. Our team worked hard to rehabilitate her.",
-        "content2": "She was later adopted by a family who gives her constant care and joy. Bella now shines with confidence and happiness.",
-        "image1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjHB28z9L3TIVpwaXc3PbbU0bPT0OmKUw4jA&s",
-        "image2": "https://cdn.shopify.com/s/files/1/2715/7980/files/white-Poodle-lying-on-the-grass_600x600.jpg?v=1649742146"
-    },
-    {
-        "id": 5,
-        "title": "From Stray to Star: Tiger the Thai Cat",
-        "author": "David Pham",
-        "date": "2025-05-02",
-        "content1": "Tiger, a Thai cat, was found wandering the streets. Thin and tired, he was taken in by the shelter team.",
-        "content2": "Now he has a warm home, healthy meals, and his new owners call him the star of the house.",
-        "image1": "https://mf.b37mrtl.ru/rbthmedia/images/2024.01/original/65a92bc4bac5024bf50ffc89.jpg",
-        "image2": "https://media.istockphoto.com/id/1560928216/video/woman-worried-about-sick-pet-siamese-cat-domestic-old-cat-sleeps-on-lap-owner-elderly-cat.jpg?s=640x640&k=20&c=Zdr7bTiNoQR78Ta1-OtDJxrN_4ZpveN76hs0-4yXNtw="
-    }
+  {
+    "id": 1,
+    "title": "From Shelter to Loving Home",
+    "author": "Jane Doe",
+    "date": "2025-01-12",
+    "content1": "Max, a beautiful golden retriever, was discovered wandering the busy city streets, looking lost and forlorn. He was rescued by a kind-hearted passerby who noticed his emaciated frame and brought him straight to our animal shelter. Upon arrival, Max was extremely shy, often hiding in the corner of his kennel, and significantly underweight, with his ribs visible through his dull coat. Our dedicated team of veterinarians and volunteers immediately began providing him with nutritious meals, gentle socialization sessions, and medical check-ups to address any underlying health issues. It was clear that Max had endured a tough life on the streets, but his sweet nature began to shine through as he slowly warmed up to the care and attention he received.",
+    "content2": "After several weeks of tender loving care, including regular exercise, training to build his confidence, and plenty of affection from the shelter staff, Max transformed into a vibrant and trusting dog. His coat regained its golden luster, and his eyes sparkled with newfound hope. It wasn't long before a wonderful family, consisting of parents and two young children, visited the shelter and fell in love with Max's gentle demeanor. They adopted him on the spot, providing him with a spacious backyard and endless opportunities for play. Today, Max thrives in his forever home, enjoying long walks in the park, playful romps with the kids, and cozy evenings curled up by the fireplace. His story is a testament to the power of rescue and rehabilitation, showing how a once-neglected dog can become a cherished family member.",
+    "image1": "https://people.com/thmb/RcukqAgXQN6t9ve5Z_PcPxJcegk=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(692x272:694x274)/dog-saved-080923-5-7d3a47cc7ba5439683f6cad265e93017.jpg",
+    "image2": "https://a-us.storyblok.com/f/1016262/5472x3648/33b730b0ba/adobestock_118021847.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Luna’s New Beginning",
+    "author": "Michael Tran",
+    "date": "2025-02-05",
+    "content1": "Luna, an elegant British Shorthair cat with striking silver fur, was found abandoned in a small cardboard box outside the shelter's door on a cold rainy night. She was trembling with fear, her eyes wide with distrust, and showed signs of neglect, including matted fur and a wary avoidance of human touch. The shelter staff carefully coaxed her out, providing a warm blanket, fresh food, and a quiet space to decompress. Over the initial days, Luna remained distant, hissing at sudden movements and preferring to hide under her bedding. Through patient observation, it became evident that she had likely experienced trauma from her previous circumstances, but her inherent curiosity hinted at the potential for recovery with the right care.",
+    "content2": "With consistent patience, gentle handling, and interactive play sessions using feather toys and laser pointers, Luna gradually learned to trust the shelter volunteers. Her fur was groomed back to its soft, plush state, and she began seeking out affection, purring softly during petting sessions. A quiet, retired couple visiting the shelter was drawn to Luna's calm personality and decided she would be the perfect addition to their peaceful home. They adopted her, creating a cozy nook by the window where she could watch birds and bask in the sun. Now, Luna lives a life of luxury, receiving daily brushes, gourmet treats, and endless cuddles from her doting owners. Her transformation from a frightened stray to a confident, beloved pet highlights the importance of compassion and time in animal rescue efforts.",
+    "image1": "https://pethelpful.com/.image/w_3840,q_auto:good,c_fill,ar_4:3,g_xy_center,x_787,y_637/NDowMDAwMDAwMDAwMDYyNzM2/gray-cat-2.png",
+    "image2": "https://cdn.shopify.com/s/files/1/2668/1922/files/british-shorthair-1.jpg?v=1689089942"
+  },
+  {
+    "id": 3,
+    "title": "Rocky Finds His Forever Family",
+    "author": "Emily Nguyen",
+    "date": "2025-03-20",
+    "content1": "Rocky, a muscular pitbull with a glossy black coat, was surrendered to the shelter by his previous owners who were facing severe financial difficulties and could no longer afford to care for him. Despite the upheaval, Rocky remained remarkably friendly and loyal, wagging his tail enthusiastically at every visitor. However, he showed signs of stress, pacing in his kennel and occasionally whining softly. The shelter team conducted a thorough assessment, noting his good health but recommending behavioral training to help him adjust. Rocky's past experiences had left him a bit anxious in new environments, but his affectionate nature and eagerness to please made him a promising candidate for adoption.",
+    "content2": "Through targeted training sessions focused on positive reinforcement and socialization with other dogs, Rocky quickly blossomed into a well-mannered and confident companion. His playful energy and loving disposition caught the eye of a young couple who owned a spacious farm. They were impressed by his gentle interactions during their meet-and-greet and decided to bring him home. On the farm, Rocky now has acres to roam, chase after balls, and even help with light herding tasks. He bonds deeply with his new family, protecting the property while enjoying belly rubs and treats. Rocky's successful adoption story underscores how understanding and opportunity can turn a surrendered pet's life around, leading to a fulfilling existence in a nurturing environment.",
+    "image1": "https://i.ytimg.com/vi/HISLjHTVeRg/maxresdefault.jpg",
+    "image2": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165602/202106American-Pit-Bull-terrier-1362582590-scaled-1.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Bella’s Journey to Happiness",
+    "author": "Sarah Le",
+    "date": "2025-04-15",
+    "content1": "Bella, a curly-haired poodle with once-vibrant white fur, arrived at the shelter in a heartbreaking condition—her coat severely matted and tangled, causing her discomfort, and she exhibited clear signs of anxiety, such as trembling and avoiding eye contact. Rescued from a hoarding situation, Bella required immediate grooming and veterinary attention to untangle her fur and treat minor skin irritations. The shelter staff worked diligently, using calming techniques and gradual exposure to build her trust. It was evident that Bella's past had been filled with neglect, but her occasional wags and soft whimpers suggested a resilient spirit eager for a second chance.",
+    "content2": "Over time, with professional grooming, anxiety-reducing therapies like pheromone diffusers and interactive puzzles, and lots of one-on-one attention, Bella's true personality emerged—playful, intelligent, and incredibly affectionate. A compassionate family, experienced with anxious dogs, visited the shelter and connected with Bella instantly, appreciating her progress. They adopted her, committing to ongoing training and providing a structured routine. In her new home, Bella flourishes, strutting confidently on walks, performing tricks for treats, and snuggling with her family during movie nights. Her journey from a distressed rescue to a joyful family pet illustrates the profound impact of dedicated rehabilitation and loving adoption.",
+    "image1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjHB28z9L3TIVpwaXc3PbbU0bPT0OmKUw4jA&s",
+    "image2": "https://cdn.shopify.com/s/files/1/2715/7980/files/white-Poodle-lying-on-the-grass_600x600.jpg?v=1649742146"
+  },
+  {
+    "id": 5,
+    "title": "From Stray to Star: Tiger the Thai Cat",
+    "author": "David Pham",
+    "date": "2025-05-02",
+    "content1": "Tiger, a sleek Thai cat with distinctive markings, was spotted scavenging for food in a back alley, appearing thin, exhausted, and covered in dirt from his life as a stray. A concerned neighbor trapped him humanely and brought him to the shelter, where he was given a thorough health check, vaccinations, and a safe space to rest. Initially, Tiger was skittish, arching his back and hiding from staff, a clear indication of his survival instincts honed on the streets. The team provided him with high-calorie food to regain weight and used slow-blink techniques to build rapport, gradually revealing his underlying curiosity and playfulness.",
+    "content2": "As Tiger gained strength and confidence through enriched environments with scratching posts, toys, and daily interaction, he transformed into a charismatic and engaging cat. His striking appearance and lively antics drew the attention of a young family seeking a feline companion. They adopted him, renaming him the 'star of the house' for his entertaining personality. Now, Tiger enjoys a life of luxury with balanced meals, cozy beds, and plenty of playtime, often zooming around the living room or perching on high shelves to survey his domain. His remarkable turnaround from a weary stray to a beloved household icon emphasizes the rewards of shelter work and the joy of giving animals a fresh start.",
+    "image1": "https://mf.b37mrtl.ru/rbthmedia/images/2024.01/original/65a92bc4bac5024bf50ffc89.jpg",
+    "image2": "https://media.istockphoto.com/id/1560928216/video/woman-worried-about-sick-pet-siamese-cat-domestic-old-cat-sleeps-on-lap-owner-elderly-cat.jpg?s=640x640&k=20&c=Zdr7bTiNoQR78Ta1-OtDJxrN_4ZpveN76hs0-4yXNtw="
+  }
 ]
