@@ -1,60 +1,104 @@
-import React, { useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
-import "../../../index.css";
+import { useParams } from "react-router-dom";
+import petcare from "../../../Data/Petowner/petcare.json";
+import React, { useState } from 'react';
 
-export default function ImageGallery({ pet }) {
-    // gộp mainImage + images
-    const initialImages = [pet.mainImage, ...(pet.images || [])];
-    const [mainImage, setMainImage] = useState(initialImages[0]);
-    const [thumbnails, setThumbnails] = useState(initialImages.slice(1));
+export default function ImageGallary() {
+    const { breed } = useParams();
+    const data = petcare.find((a) => a.breed === breed);
 
-    const handleThumbClick = (img) => {
-        // hoán đổi mainImage và thumb được click
-        setThumbnails((prev) => {
-            const newThumbs = prev.filter((t) => t !== img);
-            newThumbs.push(mainImage); // đưa mainImage cũ xuống
-            return newThumbs;
-        });
-        setMainImage(img);
-    };
+    const [selectedImage, setSelectedImage] = useState(
+        data.images ? data.images[0] : ""
+    );
+
+    if (!data) {
+        return (
+            <div className="">
+                <h2 className="">Animal Not Found!</h2>
+            </div>
+        );
+    }
 
     return (
-        <div className="container my-4">
-            <div className="text-center mb-3">
-                <img
-                    src={mainImage}
-                    alt="main"
-                    className="img-fluid rounded"
-                    style={{ width: "100%", height: "400px", objectFit: "cover" }}
-                />
-            </div>
+        <div className="container my-5">
+            <div className="row">
 
-            <Swiper
-                modules={[Navigation]}
-                spaceBetween={10}
-                slidesPerView={3}
-                navigation
-                className="thumbnail-swiper"
-            >
-                {thumbnails.map((img, index) => (
-                    <SwiperSlide key={index} onClick={() => handleThumbClick(img)}>
-                        <img
-                            src={img}
-                            alt={`thumb-${index}`}
-                            className={`img-thumbnail rounded ${mainImage === img ? "active-thumb" : ""
-                                }`}
-                            style={{
-                                cursor: "pointer",
-                                height: "120px",
-                                objectFit: "cover",
-                            }}
-                        />
-                    </SwiperSlide>
-                ))}
-            </Swiper>
+                {/* Desktop */}
+                <div className="d-none d-md-flex row">
+                    <div className="col-2">
+                        <div className="d-flex flex-column">
+                            {data.images &&
+                                data.images.map((img, idx) => (
+                                    <div
+                                        key={idx}
+                                        className="card mb-2 shadow-sm"
+                                        style={{
+                                            cursor: "pointer",
+                                            border:
+                                                selectedImage === img ? "2px solid #7f5539" : "none",
+                                        }}
+                                        onClick={() => setSelectedImage(img)}
+                                    >
+                                        <img
+                                            src={img}
+                                            alt={`${data.name} ${idx + 1}`}
+                                            className="card-img-top"
+                                            style={{
+                                                objectFit: "contain",
+                                                aspectRatio: "1 / 1",
+                                                borderRadius: "4px",
+                                            }}
+                                        />
+                                    </div>
+                                ))}
+                        </div>
+                    </div>
+
+                    {/* Main image */}
+                    <div className="col-10">
+                        <div className="card shadow-sm">
+                            <img
+                                src={selectedImage}
+                                alt={data.name}
+                                className="card-img-top"
+                                style={{ objectFit: "contain", height: "250px" }}
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                {/* Mobile (<768px): Carousel */}
+                <div id="animalCarousel" className="carousel slide d-md-none">
+                    <div className="carousel-inner">
+                        {data.images.map((img, idx) => (
+                            <div
+                                className={`carousel-item ${idx === 0 ? "active" : ""}`}
+                                key={idx}
+                            >
+                                <img
+                                    src={img}
+                                    className="card d-block w-100"
+                                    alt={`${data.name} ${idx + 1}`}
+                                    style={{ objectFit: "contain", height: "300px" }}
+                                />
+                            </div>
+                        ))}
+                    </div>
+                    {/* Pagination */}
+                    <div className="carousel-indicators">
+                        {data.images.map((_, idx) => (
+                            <button
+                                key={idx}
+                                type="button"
+                                data-bs-target="#animalCarousel"
+                                data-bs-slide-to={idx}
+                                className={idx === 0 ? "active" : ""}
+                                aria-current={idx === 0 ? "true" : "false"}
+                                aria-label={`Slide ${idx + 1}`}
+                            ></button>
+                        ))}
+                    </div>
+                </div>
+            </div>
         </div>
-    );
-}
+    )
+};

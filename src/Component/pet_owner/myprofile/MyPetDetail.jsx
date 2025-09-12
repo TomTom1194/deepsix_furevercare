@@ -5,35 +5,25 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import pets from "../../../Data/Petowner/pet.json";
+import pet from "../../../Data/Petowner/pet.json";
 
 function MyPetDetail() {
+
     const { id } = useParams();
-    const pet = pets.find((p) => p.id === id);
+    const data = pet.find((a) => a.id === id);
 
-    // 🔥 Hook phải luôn được gọi, nên check null an toàn trước
-    const initialImages = pet
-        ? [pet.mainImage, ...(pet.images || [])]
-        : [];
-    const [mainImage, setMainImage] = useState(initialImages[0]);
-    const [thumbnails, setThumbnails] = useState(initialImages.slice(1));
 
-    if (!pet) {
+    const [selectedImage, setSelectedImage] = useState(
+        data.images ? data.images[0] : ""
+    );
+
+    if (!data) {
         return (
-            <div className="container mt-5">
-                <h3>Pet not found</h3>
+            <div className="">
+                <h2 className="">Animal Not Found!</h2>
             </div>
         );
     }
-
-    const handleThumbClick = (img) => {
-        setThumbnails((prev) => {
-            const newThumbs = prev.filter((t) => t !== img);
-            newThumbs.push(mainImage);
-            return newThumbs;
-        });
-        setMainImage(img);
-    };
 
     return (
         <div className="container mt-5">
@@ -41,46 +31,79 @@ function MyPetDetail() {
             <div className="row">
                 {/* Left column: Images */}
                 <div className="col-md-6">
-                    <div className="card shadow-sm mb-4">
-                        <div className="text-center">
-                            <img
-                                src={mainImage}
-                                alt={pet.name}
-                                className="img-fluid rounded"
-                                style={{ height: "300px", objectFit: "contain" }}
-                            />
-                        </div>
-                        <div className="card-body">
-                            <Swiper
-                                modules={[Navigation]}
-                                spaceBetween={10}
-                                slidesPerView={3}
-                                navigation
-                                className="thumbnail-swiper"
-                            >
-                                {thumbnails.map((img, idx) => (
-                                    <SwiperSlide
-                                        key={idx}
-                                        onClick={() => handleThumbClick(img)}
-                                    >
-                                        <img
-                                            src={img}
-                                            alt={`pet-${idx}`}
+                    <div className="d-none d-md-flex row">
+                        <div className="col-2">
+                            <div className="d-flex flex-column">
+                                {data.images &&
+                                    data.images.map((img, idx) => (
+                                        <div
+                                            key={idx}
+                                            className="card mb-2 shadow-sm"
                                             style={{
                                                 cursor: "pointer",
-                                                width: "100%",
-                                                height: "120px",
-                                                objectFit: "cover",
-                                                borderRadius: "8px",
                                                 border:
-                                                    mainImage === img
-                                                        ? "3px solid #dc143c"
-                                                        : "1px solid #ccc",
+                                                    selectedImage === img ? "2px solid #7f5539" : "none",
                                             }}
-                                        />
-                                    </SwiperSlide>
-                                ))}
-                            </Swiper>
+                                            onClick={() => setSelectedImage(img)}
+                                        >
+                                            <img
+                                                src={img}
+                                                alt={`${data.name} ${idx + 1}`}
+                                                className="card-img-top"
+                                                style={{
+                                                    objectFit: "contain",
+                                                    aspectRatio: "1 / 1",
+                                                    borderRadius: "4px",
+                                                }}
+                                            />
+                                        </div>
+                                    ))}
+                            </div>
+                        </div>
+
+                        {/* Main image */}
+                        <div className="col-10">
+                            <div className="card shadow-sm">
+                                <img
+                                    src={selectedImage}
+                                    alt={data.name}
+                                    className="card-img-top"
+                                    style={{ objectFit: "contain", height: "250px" }}
+                                />
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Mobile (<768px): Carousel */}
+                    <div id="animalCarousel" className="carousel slide d-md-none">
+                        <div className="carousel-inner">
+                            {data.images.map((img, idx) => (
+                                <div
+                                    className={`carousel-item ${idx === 0 ? "active" : ""}`}
+                                    key={idx}
+                                >
+                                    <img
+                                        src={img}
+                                        className="card d-block w-100"
+                                        alt={`${data.name} ${idx + 1}`}
+                                        style={{ objectFit: "contain", height: "300px" }}
+                                    />
+                                </div>
+                            ))}
+                        </div>
+                        {/* Pagination */}
+                        <div className="carousel-indicators">
+                            {data.images.map((_, idx) => (
+                                <button
+                                    key={idx}
+                                    type="button"
+                                    data-bs-target="#animalCarousel"
+                                    data-bs-slide-to={idx}
+                                    className={idx === 0 ? "active" : ""}
+                                    aria-current={idx === 0 ? "true" : "false"}
+                                    aria-label={`Slide ${idx + 1}`}
+                                ></button>
+                            ))}
                         </div>
                     </div>
                 </div>
@@ -89,30 +112,30 @@ function MyPetDetail() {
                 <div className="col-md-6">
                     <div className="card shadow-sm mb-4">
                         <div className="card-body">
-                            <h3 className="text-brown">{pet.name}</h3>
+                            <h3 className="text-brown">{data.name}</h3>
                             <p>
-                                <strong>Species:</strong> {pet.spieces}
+                                <strong>Species:</strong> {data.spieces}
                             </p>
                             <hr />
                             <p>
-                                <strong>Breed:</strong> {pet.breed}
+                                <strong>Breed:</strong> {data.breed}
                             </p>
                             <hr />
                             <p>
-                                <strong>Age:</strong> {pet.age} years
+                                <strong>Age:</strong> {data.age} years
                             </p>
                             <hr />
                             <p>
-                                <strong>Weight:</strong> {pet.weight}
+                                <strong>Weight:</strong> {data.weight}
                             </p>
                             <hr />
                             <p>
                                 <strong>Vaccine Status:</strong>{" "}
-                                {pet.vaccine_status}
+                                {data.vaccine_status}
                             </p>
                             <hr />
                             <p>
-                                <strong>Notes:</strong> {pet.notes}
+                                <strong>Notes:</strong> {data.notes}
                             </p>
                         </div>
                     </div>
@@ -122,9 +145,9 @@ function MyPetDetail() {
             {/* Medical History */}
             <div className="mt-5">
                 <h3 className="mb-3">Medical History</h3>
-                {pet.medicalHistory && pet.medicalHistory.length > 0 ? (
+                {data.medicalHistory && data.medicalHistory.length > 0 ? (
                     <div className="row">
-                        {pet.medicalHistory.map((mh, idx) => (
+                        {data.medicalHistory.map((mh, idx) => (
                             <div key={idx} className="col-md-6 mb-3">
                                 <div className="card shadow-sm h-100">
                                     <div className="card-body">
@@ -145,9 +168,9 @@ function MyPetDetail() {
 
             <div className="mt-5">
                 <h3 className="mb-3">Upcoming Appointments</h3>
-                {pet.appointments && pet.appointments.length > 0 ? (
+                {data.appointments && data.appointments.length > 0 ? (
                     <div className="row">
-                        {pet.appointments.map((appt, idx) => (
+                        {data.appointments.map((appt, idx) => (
                             <div key={idx} className="col-md-6 mb-3">
                                 <div className="card border-success shadow-sm h-100">
                                     <div className="card-body">

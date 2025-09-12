@@ -57,7 +57,7 @@ function HomeProduct({ db }) {
 
             {db.length > 8 && (
                 <div className="text-center mt-4">
-                    <Link to="/petowner/petcare">
+                    <Link to="/petowner/petproduct">
                         <button className="btn btncss-outline px-4 py-2">
                             View More Product
                         </button>

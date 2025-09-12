@@ -312,78 +312,85 @@
   {
     "id": 25,
     "typeProduct": "bedding",
-    "name": "Luxury Sofa Pet Bed",
-    "mainImage": "https://thepawsitive.co/cdn/shop/products/8_4aaf3603-ef62-42f4-b27f-3ed5e18ad96c_540x.jpg?v=1630371914",
+    "name": "Heated Pet Bed",
+    "mainImage": "https://files.ekmcdn.com/pawstrading/images/k-h-heated-nest-dog-bed-thermo-snuggly-sleeper-heated-pet-bed-medium-sage-26-x-20-6w-26500-p.jpg",
     "images": [
-      "https://m.media-amazon.com/images/I/81hguD9bfZL.jpg"
+      "https://m.media-amazon.com/images/I/81eiwrkD9vL._UF1000,1000_QL80_.jpg",
+      "https://www.luckypet.com.au/assets/alt_1/KHE013.jpg?20210318034810"
     ],
-    "description": "Stylish sofa-like pet bed that adds elegance to your home decor.",
-    "price": 95.5,
+    "description": "Heated bed that keeps pets warm and cozy during cold weather.",
+    "price": 85.0,
     "sale_quantity": 390,
     "rating": 4.3
   },
   {
     "id": 26,
-    "typeProduct": "toys",
-    "name": "Chew Toy Bone",
-    "mainImage": "https://cdn11.bigcommerce.com/s-rdn5vmj/images/stencil/1280x1280/products/328/13845/012578-XL-CHW-TY-PIK__24858.1553021111.jpg?c=2?imbypass=on",
+    "typeProduct": "bedding",
+    "name": "Travel Carrier Bed",
+    "mainImage": "https://shopfurme.com/cdn/shop/files/QuiltedPetCarrier_CarSeatOatmeal_1024x.jpg?v=1693078516",
     "images": [
-      "https://www.petexpress.com.ph/cdn/shop/products/booda-dog-chew-bones-rope-toy-8-inch-natural.jpg?v=1721805460"
+      "https://down-th.img.susercontent.com/file/th-11134208-7r98u-lni5wf3r8nzb8f",
+      "https://down-th.img.susercontent.com/file/th-11134208-7r98x-lni5wf3rbh477c"
     ],
-    "description": "Durable chew toy bone that keeps dogs entertained and promotes dental health.",
-    "price": 8.5,
+    "description": "Convertible carrier and bed perfect for travel and outdoor adventures.",
+    "price": 65.9,
     "sale_quantity": 950,
     "rating": 4.8
   },
   {
     "id": 27,
-    "typeProduct": "toys",
-    "name": "Interactive Cat Toy",
-    "mainImage": "https://m.media-amazon.com/images/I/81KkhA3ur8L.jpg",
+    "typeProduct": "bedding",
+    "name": "Luxury Plush Bed",
+    "mainImage": "https://www.roverpetproducts.com.au/cdn/shop/files/plushmat-edge-surround-rover-pet-products.jpg?v=1748411025",
     "images": [
-      "https://down-vn.img.susercontent.com/file/sg-11134201-23010-59yq0c6eb9lvbb"
+      "https://www.roverpetproducts.com.au/cdn/shop/files/Complementary.jpg?v=1754618254",
+      "https://www.roverpetproducts.com.au/cdn/shop/files/Steel_Boucle_PlushMat_Edge.jpg?v=1754618254"
     ],
-    "description": "Interactive toy designed to keep cats mentally stimulated and active.",
-    "price": 12.75,
+    "description": "Premium plush bed with extra cushioning for maximum comfort.",
+    "price": 90.0,
     "sale_quantity": 620,
     "rating": 4.5
   },
   {
     "id": 28,
-    "typeProduct": "toys",
-    "name": "Squeaky Plush Toy",
-    "mainImage": "https://m.media-amazon.com/images/I/61TwZdsPuxL._AC_SL1001_.jpg",
+    "typeProduct": "apparel",
+    "name": "Raincoat for Cats",
+    "mainImage": "https://allcatsgood.com/cdn/shop/files/yellow-007_0bf454c3-7226-4d91-a221-bfc05e72094e.jpg?v=1747141337&width=1445",
     "images": [
-      "https://i.ebayimg.com/images/g/UuEAAOSwb7lm0pM2/s-l500.jpg"
+      "https://allcatsgood.com/cdn/shop/files/yellow-007_0bf454c3-7226-4d91-a221-bfc05e72094e.jpg?v=1747141337&width=1445"
     ],
-    "description": "Soft plush toy with a built-in squeaker for endless fun.",
-    "price": 9.9,
+    "description": "Lightweight waterproof raincoat to keep your cat dry and comfortable.",
+    "price": 22.5,
     "sale_quantity": 730,
     "rating": 4.6
   },
   {
     "id": 29,
-    "typeProduct": "toys",
-    "name": "Rope Tug Toy",
-    "mainImage": "https://m.media-amazon.com/images/I/91nTWSQUsQL.jpg",
+    "typeProduct": "apparel",
+    "name": "Summer T-Shirt for Pets",
+    "mainImage": "https://www.doghouse.co.uk/cdn/shop/files/image_029129fd-7bca-4912-aac4-3ee3f489e94f_720x.jpg?v=1687418181",
     "images": [
-      "https://m.media-amazon.com/images/I/81u+Zk4SOzL.jpg"
+      "https://www.doghouse.co.uk/cdn/shop/files/0F0BF3B3-5424-4869-A16E-ECE2D9CCF28F_720x.jpg?v=1756936167",
+      "https://www.doghouse.co.uk/cdn/shop/files/image_8526e99a-e535-43a1-81b2-206e69048ec8_720x.heic?v=1756936167",
+      "https://www.doghouse.co.uk/cdn/shop/files/image_df693d3a-ac4f-4723-a318-310f7c72e237_720x.heic?v=1687418169"
     ],
-    "description": "Sturdy rope tug toy that encourages exercise and bonding playtime.",
-    "price": 11.2,
+    "description": "Breathable summer T-shirt made of lightweight fabric for hot days.",
+    "price": 16.0,
     "sale_quantity": 680,
     "rating": 4.4
   },
   {
     "id": 30,
-    "typeProduct": "toys",
-    "name": "Ball Launcher Set",
-    "mainImage": "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lj2sems1dj2x72",
+    "typeProduct": "bedding",
+    "name": "Cozy Round Pet Bed",
+    "mainImage": "https://i5.walmartimages.com/seo/Cozy-Round-Rattan-Pet-Bed-for-Dogs-Cats-Breathable-Washable-All-Seasons-Pet-Cushion-Mat-for-Indoor-Use-Portable-and-Comfortable_9e5bd57d-472f-49a2-ba65-ce7754fca3d8.a085a604c0a354bd94102cacb7042730.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFF",
     "images": [
-      "https://down-vn.img.susercontent.com/file/sg-11134201-7rd5j-lrlj9j5b1dj731"
+      "https://m.media-amazon.com/images/I/51b2jp6vwmL._UF350,350_QL80_.jpg",
+      "https://m.media-amazon.com/images/I/61VcT7pbliL._UF1000,1000_QL80_.jpg",
+      "https://m.media-amazon.com/images/I/71Qwahb9-fL._UF1000,1000_QL80_.jpg"
     ],
-    "description": "Fun ball launcher set that provides hours of fetch and exercise for dogs.",
-    "price": 20.0,
+    "description": "Soft and comfortable round pet bed that provides warmth and security.",
+    "price": 55.0,
     "sale_quantity": 840,
     "rating": 4.7
   }

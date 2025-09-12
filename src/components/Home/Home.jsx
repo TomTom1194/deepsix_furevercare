@@ -9,7 +9,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   const handleSubmit = () => {
-    if (!email || !selectedRole) {
+    if (!email) {
       alert("Please fill in all fields before proceeding!");
       return;
     }
@@ -23,13 +23,10 @@ const Home = () => {
     }
 
     localStorage.setItem("currentUser", JSON.stringify(existingUser));
-
-    if (selectedRole === "petowner") {
-      navigate("/petowner/home", { state: { email: email } });
-    } else if (selectedRole === "animalshelter") {
-      navigate("/animalshelter/animal", { state: { email: email } });
-    } else if (selectedRole === "veterinarian") {
-      navigate("/veterinarian", { state: { email: email } });
+    if (existingUser.role === "user") {
+      navigate("/petowner");
+    } else {
+      navigate("/veterinarian")
     }
   };
 
@@ -62,7 +59,7 @@ const Home = () => {
         </div>
 
         {/* Choices */}
-        <div className="mb-3">
+        {/* <div className="mb-3">
           <label className="form-label fw-semibold">You wanna visit</label>
           <div className="d-grid gap-2">
             <button
