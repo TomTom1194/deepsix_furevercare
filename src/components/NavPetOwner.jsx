@@ -22,7 +22,7 @@ function NavPetowner() {
     const isActive = (path) => (location.pathname === path ? "active-link" : "");
 
     return (
-        <div className="header">
+        <div className="header ">
             <nav className="navbar navbar-expand-lg navbar-light shadow-sm">
                 <div className="container">
                     <button
@@ -81,29 +81,57 @@ function NavPetowner() {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className={`nav-link`} to="/veterinarian">
+                                <Link className={`nav-link`} to="/veterinarian/home">
                                     Veterinarian
                                 </Link>
                             </li>
-                            <li className="nav-item">
-                                <Link className={`nav-link`} to="/animalshelter/animal">
-                                    Animal Shelter
+                            <li className="nav-item dropdown">
+                            <Link
+                                className={`nav-link  dropdown-toggle ${isActive("/animalshelter/animal")}`}
+                                to="#"
+                                id="animalShelterDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Animal Shelter
+                            </Link>
+                            <ul className="dropdown-menu" aria-labelledby="animalShelterDropdown">
+                                <li>
+                                <Link className="dropdown-item" to="/animalshelter/animal">
+                                    Gallery
                                 </Link>
+                                </li>
+                                <li>
+                                <Link className="dropdown-item" to="/animalshelter/story">
+                                    Success Story
+                                </Link>
+                                </li>
+                                <li>
+                                <Link className="dropdown-item" to="/animalshelter/event">
+                                    Event
+                                </Link>
+                                </li>
+                                <li>
+                                <Link className="dropdown-item" to="/animalshelter/sheltercontact">
+                                    Shelter Contact
+                                </Link>
+                                </li>
+                            </ul>
                             </li>
                         </ul>
 
                         {currentUser && currentUser.role === "user" && (
                             <Link
                                 to="/petowner/myprofile"
-                                className="btn"
-                                style={{ backgroundColor: "#7f5539", color: "white" }}
+                                className="btn-custom me-1"
                             >
                                 Hi, {currentUser.name}
                             </Link>
                         )}
                         <button
-                            className="btn"
-                            style={{ backgroundColor: "#7f5539", color: "white" }}
+                            className="btn btn-outline-secondary"
+                            
                             onClick={handleSignOut}
                         >
                             Sign out

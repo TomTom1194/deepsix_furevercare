@@ -50,10 +50,10 @@ const HomeVeterinarian = () => {
 
   return (
     <div>
-      {/* Header chung */}
-      <nav className="navbar navbar-expand-md bg-light">
+      
+      {/* <nav className="navbar navbar-expand-md bg-light">
         <div className="container">
-          {/* Logo bên trái */}
+          
           <NavLink className="navbar-brand" to="/">
             <img
               src="./images/logo.png"
@@ -62,7 +62,7 @@ const HomeVeterinarian = () => {
             />
           </NavLink>
 
-          {/* Nút user (bên phải trên mobile + desktop) */}
+          
           <div className="d-flex align-items-center order-md-3">
             {currentUser && currentUser.role === "user" && (
               <Link
@@ -83,7 +83,7 @@ const HomeVeterinarian = () => {
               </Link>
             )}
 
-            {/* Toggle menu chỉ hiện khi mobile */}
+            
             <button
               className="navbar-toggler ms-2"
               type="button"
@@ -97,7 +97,7 @@ const HomeVeterinarian = () => {
             </button>
           </div>
 
-          {/* Menu (giữa desktop, dưới mobile) */}
+          
           <div
             className="collapse navbar-collapse justify-content-center order-md-2"
             id="mainNavbar"
@@ -127,7 +127,7 @@ const HomeVeterinarian = () => {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> */}
 
       {/* Carousel */}
       <div

@@ -1,6 +1,8 @@
 import React, { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 
+import "aos/dist/aos.css";
+
 import Animals from "../../../Data/Animalshelter/animalshelter.json";
 
 export default function AnimalShelter() {
@@ -76,7 +78,7 @@ export default function AnimalShelter() {
   const [visibleCount, setVisibleCount] = useState(8);
 
   return (
-    <div className="container">
+    <div className="container ">
       {/* Carousel */}
       <div
         id="vetCarousel"

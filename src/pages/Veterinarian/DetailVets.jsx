@@ -109,27 +109,18 @@ function VetDetail() {
 
             {/* Nút user (bên phải trên mobile + desktop) */}
             <div className="d-flex align-items-center order-md-3">
-              {currentUser && currentUser.role === "user" && (
-                <Link
-                  to="/petowner/myprofile"
-                  className="btn btn-sm ms-2"
-                  style={{ backgroundColor: "#7f5539", color: "white" }}
-                >
-                  Hi, {currentUser.name}
-                </Link>
-              )}
               {currentUser && currentUser.role === "vet" && (
                 <Link
-                  to="/veterinarian/myprofile"
-                  className="btn btn-sm ms-2"
-                  style={{ backgroundColor: "#7f5539", color: "white" }}
+                  to="/myprofile"
+                  className="btn-custom me-1"
+                  
                 >
                   Hi, {currentUser.name}
                 </Link>
               )}
               <button
-                className="btn"
-                style={{ backgroundColor: "#7f5539", color: "white" }}
+                className="btn btn-outline-secondary"
+                
                 onClick={handleSignOut}
               >
                 Sign out

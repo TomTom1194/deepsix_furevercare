@@ -74,10 +74,10 @@ export default function App() {
         </Route>
 
         {/* Veterinarian routes */}
-        <Route path="/veterinarian" element={<VetLayout />}>
-          <Route index element={<HomeVeterinarian />} />
-          <Route path=":id" element={<VetProfile />} />
           <Route path="myprofile" element={<VetDetail />} />
+        <Route path="/veterinarian" element={<VetLayout />}>
+          <Route path="home" element={<HomeVeterinarian />} />
+          <Route path=":id" element={<VetProfile />} />
         </Route>
 
         {/* Animal Shelter routes */}
