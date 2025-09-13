@@ -94,8 +94,8 @@ function VetDetail() {
   return (
     <>
       {/* Navbar */}
-      <div className="mb-3">
-        <nav className="navbar navbar-expand-md bg-light">
+      <div className="">
+        <nav className="navbar navbar-expand-md bg-white shadow-sm">
           <div className="container">
             <NavLink className="navbar-brand" to="/">
               <img
