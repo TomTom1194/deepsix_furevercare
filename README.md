@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+FUREVER CARE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Batch: T3.2502.E0
 
-## Available Scripts
+Center Name: ACE-HCMC-2-FPT
 
-In the project directory, you can run:
+## 👥 GROUP DEEPSIX
 
-### `npm start`
+Nguyen Hong Ngoc - Student1634993
+Tang Thien Tan - Student1634690
+Pham Gia Bao - Student1628435
+Nguyen Thanh Bao - Student1634684
+Le Quoc Anh - Student2412003
+Nguyen Hong Ngoc - Student1634993
+Tran Van Huy - Student1634991
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📑DOCUMENTATION
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The full project report is available here:
 
-### `npm test`
+👉 [FurEver Care Report](link drive)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🌐 LIVE WEBSITE
 
-### `npm run build`
+Click below to view the live version of our website:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+👉 [FurEver Care](link deploy)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🎥DEMONSTRATION VIDEO
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+👉 [Watch here](link ytb/vid)
 
-### `npm run eject`
+## 📌PROJECT OVERVIEW
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**FurEver Care** is a responsive Single Page Application (SPA) developed as a frontend-only project to centralize pet care resources for pet owners, veterinarians, and animal shelters. It is built using ReactJS, HTML5, CSS3, and JSON for data storage. The system provides static but interactive modules including pet profiles, product showcases, vet pages, adoption galleries, and feedback/contact forms.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ✨ FEATURES
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Fully **responsive website** optimized for desktop, tablet, and mobile.
+- Role-based entry: _Pet Owners_, _Veterinarians_, and _Animal Shelters_.
+- **Pet Profiles** with species, breed, age, and vaccination details.
+- **Product showcase** with images, descriptions, prices, and demo “Buy Now” buttons.
+- **Adoption gallery** with filters by type, breed, age, and location.
+- **Veterinarian profiles** with specialization, contact info, and static appointment slots.
+- **Success stories** and **event announcements** for adoption drives and vaccination camps.
+- **Feedback form** (UI-only, non-functional) and Contact Us page with emergency contacts and Google Maps.
+- Clean and modern UI built with **ReactJS, HTML5, CSS3, and JSON**.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠 TECHNOLOGIES USED
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+), ReactJS (SPA framework), Bootstrap5 for styling -**IDE**: VS code
+- **Design Tool**: Figma for wireframes and mockups
+- **Data Storage**: JSON for status data
+- **Deployment**: GitHub Pages
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚀 GETTING STARTED (FOR DEVELOPERS)
 
-### Analyzing the Bundle Size
+### 1️⃣ Clone the repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+git clone https://github.com/username/repo-name.git
+cd repo-name
+```
 
-### Making a Progressive Web App
+2️⃣ Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
 
-### Advanced Configuration
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3️⃣ Run the project
 
-### Deployment
+```bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+npm start
+```
 
-### `npm run build` fails to minify
+The app will run locally at:
+👉 http://localhost:3000/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## GETTING STARTED (FOR user)
+
+```
+input email : olivia@gmail.com (role user)
+input email : william@gmail.com (role doctor)
+```
