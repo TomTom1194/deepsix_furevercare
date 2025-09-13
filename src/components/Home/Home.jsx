@@ -31,10 +31,15 @@ const Home = () => {
   };
 
   return (
-    <div className="d-flex justify-content-center align-items-center min-vh-100 bg-light p-3">
+    <div className="d-flex justify-content-center align-items-center min-vh-100 bg-light p-3"
+    style={{backgroundImage:"url(https://images.unsplash.com/photo-1756459078941-4e2f042d161d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
+      backgroundSize:"cover",
+      backgroundRepeat:"no-repeat",
+      backgroundPosition:"center"
+    }}>
       <div
         className="card shadow-lg p-4 w-100"
-        style={{ maxWidth: "400px", borderRadius: "15px" }}
+        style={{ maxWidth: "400px", borderRadius: "15px", backgroundColor:"rgba(255, 255, 255, 0.67)"}}
       >
         {/* Logo */}
         <div className="text-center ">

@@ -1,4 +1,7 @@
 function ProductInfo({ product }) {
+    const handleClick = () => {
+    alert("Successful");
+    };
     return (
         <div className="container my-4">
             <div
@@ -25,7 +28,7 @@ function ProductInfo({ product }) {
                         Warranty: <strong>18 months</strong>
                     </p>
 
-                    <button className="btn btncss w-50 py-2 fw-bold ">
+                    <button className="btn btncss w-50 py-2 fw-bold " onClick={handleClick}>
                         Buy Now
                     </button>
                 </div>

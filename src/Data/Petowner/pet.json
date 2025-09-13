@@ -82,5 +82,45 @@
             }
         ],
         "notes": "Lucy is playful but sometimes lazy. Needs more exercise."
+    },
+    {
+        "id": "P3",
+        "name": "Tom",
+        "spieces": "cat",
+        "breed": "British",
+        "age": 1,
+        "weight": "1kg",
+        "owner_id": 2,
+        "vaccine_status": "vaccined",
+        "mainImage": "https://peticon.edu.vn/wp-content/uploads/2023/10/0.5.jpeg",
+        "images": [
+            "https://aquariumcare.vn/upload/user/images/12(4).jpg"
+        ],
+        "medicalHistory": [
+            {
+                "date": "2025-01-12",
+                "vet": "Dr. Smith",
+                "reason": "Annual check-up",
+                "diagnosis": "Healthy",
+                "treatment": "N/A"
+            },
+            {
+                "date": "2025-03-05",
+                "vet": "Dr. Alice",
+                "reason": "Vaccination",
+                "diagnosis": "Normal",
+                "treatment": "Rabies vaccine"
+            }
+        ],
+        "appointments": [
+            {
+                "date": "2025-09-20",
+                "time": "15:00",
+                "vet": "Dr. Brown",
+                "status": "upcoming",
+                "treatment": "Grooming"
+            }
+        ],
+        "notes": "Lucy is playful but sometimes lazy. Needs more exercise."
     }
 ]
