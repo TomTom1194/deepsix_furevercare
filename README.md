@@ -18,7 +18,7 @@ Tran Van Huy - Student1634991
 
 The full project report is available here:
 
-👉 [FurEver Care Report](link drive)
+👉 [FurEver Care Report](https://drive.google.com/file/d/1kfJyOSN4ZOT4C493kmNw8j0789oAf8wg/view?usp=sharing)
 
 ## 🌐 LIVE WEBSITE
 
@@ -28,7 +28,7 @@ Click below to view the live version of our website:
 
 ## 🎥DEMONSTRATION VIDEO
 
-👉 [Watch here](link ytb/vid)
+👉 [Watch here](https://youtu.be/nqWYl9I6kNM?si=S4m0Sve3wtzs-iHE)
 
 ## 📌PROJECT OVERVIEW
 
