@@ -122,7 +122,7 @@ function VetDetail() {
       </div>
 
       {/* Dashboard Button for Mobile/Tablet */}
-      <div className="d-lg-none ms-3 mb-3 ">
+      <div className="d-lg-none ms-3 mb-3 mt-3">
         <button
           className="btn btn-outline-secondary text-dark"
           data-bs-toggle="offcanvas"
@@ -133,7 +133,7 @@ function VetDetail() {
       </div>
 
       {/* Offcanvas Sidebar */}
-      {/* <div
+      <div
         className="offcanvas offcanvas-start"
         tabIndex="-1"
         id="offcanvasDashboard"
@@ -177,7 +177,7 @@ function VetDetail() {
             ))}
           </ul>
         </div>
-      </div> */}
+      </div>
 
      
       <div className="container-fluid" >
