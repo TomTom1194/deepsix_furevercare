@@ -24,7 +24,7 @@ The full project report is available here:
 
 Click below to view the live version of our website:
 
-👉 [FurEver Care](link deploy)
+👉 [FurEver Care](https://deepsix-xi.vercel.app/)
 
 ## 🎥DEMONSTRATION VIDEO
 
