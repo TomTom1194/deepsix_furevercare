@@ -16,11 +16,11 @@ function Emergency() {
     return (
         <div className="emergency container my-5">
             <div className="card shadow-sm mb-4">
-                <div className="card-header bg-primary text-white fw-bold">Veterinary Contacts</div>
+                <div className="card-header  text-white fw-bold" style={{backgroundColor:"#7f5539"}}>Veterinary Contacts</div>
                 <div className="card-body">
                     <div className="list-group">
                         {vetContacts.map((vet, index) => (
-                            <div key={index} className="list-group-item d-flex justify-content-between align-items-center">
+                            <div key={index} className="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                                 <div>
                                     <h6 className="mb-1">{vet.name}</h6>
                                     <small className="text-muted">{vet.email}</small>
@@ -36,11 +36,11 @@ function Emergency() {
 
 
             <div className="card shadow-sm mb-4">
-                <div className="card-header bg-warning text-dark fw-bold">Hotlines & Help Centers</div>
+                <div className="card-header  text-white fw-bold" style={{backgroundColor:"#7f5539"}}>Hotlines & Help Centers</div>
                 <div className="card-body">
                     <ul className="list-group">
                         {hotlines.map((hotline, index) => (
-                            <li key={index} className="list-group-item d-flex justify-content-between align-items-center">
+                            <li key={index} className="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                                 <span>{hotline.name}</span>
                                 <a href={`tel:${hotline.phone}`} className="btn btn-outline-danger btn-sm text-nowrap">
                                     📞 {hotline.phone}
@@ -53,7 +53,7 @@ function Emergency() {
 
 
             <div className="card shadow-sm">
-                <div className="card-header bg-success text-white fw-bold">Contact Us</div>
+                <div className="card-header  text-white fw-bold" style={{backgroundColor:"#7f5539"}}>Contact Us</div>
                 <div className="card-body">
                     <p><strong>📍 Address:</strong> 21bis Hau Giang,Tan Binh, Ho Chi Minh City, Vietnam</p>
                     <p><strong>📧 Email:</strong> <a href="mailto:support@petcare.com">support@furevercare.com</a></p>

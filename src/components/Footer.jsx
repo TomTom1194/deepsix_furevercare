@@ -55,7 +55,7 @@ function HomeFooter() {
   return (
     <>
       <footer
-        className="pt-5 pb-3 mt-5"
+        className="pt-5 pb-3 "
         style={{ backgroundColor: "#e6ccb2", color: "#000" }}
       >
         <div className="container">

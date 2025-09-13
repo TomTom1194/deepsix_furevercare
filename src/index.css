@@ -215,3 +215,13 @@ a {
   justify-content: center;
 }
 
+.bi {
+  color: #7f5539;
+}
+
+@media (min-width: 992px) { 
+   .card {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}

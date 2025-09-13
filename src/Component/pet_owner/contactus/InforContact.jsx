@@ -10,23 +10,23 @@ function InforContact() {
                         <div className="card-body">
                             <h4 className="card-title fw-bold  mb-4" style={{ color: "#7f5539" }}>Team Contact Information</h4>
                             <p className="card-text mb-3">
-                                <i className="bi bi-envelope-fill text-danger me-2"></i>
+                                <i className="bi bi-envelope-fill  me-2" ></i>
                                 <strong>Email:</strong> contact@furevercare.com
                             </p>
                             <p className="card-text mb-3">
-                                <i className="bi bi-telephone-fill text-primary me-2"></i>
+                                <i className="bi bi-telephone-fill  me-2"></i>
                                 <strong>Phone:</strong> +1 (123) 456-7890
                             </p>
                             <p className="card-text mb-3">
-                                <i className="bi bi-geo-alt-fill text-warning me-2"></i>
+                                <i className="bi bi-geo-alt-fill  me-2"></i>
                                 <strong>Address:</strong> 21bis Hau Giang, Tan Binh, Ho Chi Minh, VietNam
                             </p>
                             <p className="card-text mb-3">
-                                <i className="bi bi-globe2 text-info me-2"></i>
+                                <i className="bi bi-globe2  me-2"></i>
                                 <strong>Website:</strong> www.furevercare.com
                             </p>
                             <p className="card-text">
-                                <i className="bi bi-clock-fill text-secondary me-2"></i>
+                                <i className="bi bi-clock-fill  me-2"></i>
                                 <strong>Working Hours:</strong> Mon - Fri, 9:00 AM - 6:00 PM
                             </p>
                         </div>
