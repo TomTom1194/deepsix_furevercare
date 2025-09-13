@@ -10,15 +10,6 @@
   },
   {
     "id": 2,
-    "name": "Dr. Michael Nguyen",
-    "specialization": "dentistry",
-    "email": "michael.nguyen@petshelter.com",
-    "phone": "+1-202-555-0111",
-    "image": "https://images.pexels.com/photos/15962799/pexels-photo-15962799.jpeg",
-    "working_time": "Tue - Sat, 10:00 AM - 6:00 PM"
-  },
-  {
-    "id": 3,
     "name": "Dr. Sarah Johnson",
     "specialization": "dermatology",
     "email": "sarah.johnson@petshelter.com",
@@ -27,10 +18,19 @@
     "working_time": "Mon - Fri, 8:30 AM - 4:30 PM"
   },
   {
+    "id": 3,
+    "name": "Dr. Michael Nguyen",
+    "specialization": "dentistry",
+    "email": "michael.nguyen@petshelter.com",
+    "phone": "+1-202-555-0111",
+    "image": "https://images.pexels.com/photos/15962799/pexels-photo-15962799.jpeg",
+    "working_time": "Tue - Sat, 10:00 AM - 6:00 PM"
+  },
+  {
     "id": 4,
-    "name": "Dr. Daniel Lee",
+    "name": "Dr. William",
     "specialization": "emergency and critical care",
-    "email": "daniel.lee@petshelter.com",
+    "email": "william@gmail.com",
     "phone": "+1-202-555-0113",
     "image": "https://images.pexels.com/photos/7966284/pexels-photo-7966284.jpeg",
     "working_time": "Mon - Sun, 24/7 on call"
