@@ -19,14 +19,40 @@ function NavPetowner() {
         navigate("/");
     }
 
-    const isActive = (path) => (location.pathname === path ? "active-link" : "");
+    const isActive = (path) => (location.pathname.startsWith(path) ? "active" : "");
 
     return (
-        <div className="header ">
-            <nav className="navbar navbar-expand-lg navbar-light shadow-sm">
+        <div className="header fixed-top bg-white">
+            <nav className=" navbar navbar-expand-lg navbar-light shadow-sm">
+
                 <div className="container">
+                    <div className="img-fluid me-auto order-0">
+
+                        <Link to="/petowner/home">
+                                <img src="/images/logo.png" alt="Logo" style={{ width: "70px" }} />
+                        </Link>
+                    </div>
+                        <div className="d-flex me-2 order-1 order-lg-2" style={{alignItems:"center"}}>
+
+                        {currentUser && currentUser.role === "user" && (
+                            <Link
+                            to="/petowner/myprofile"
+                            className="btn-custom me-1"
+                            >
+                                Hi, {currentUser.name}
+                            </Link>
+                        )}
+                        <button
+                            className="btn btn-outline-secondary"
+                            
+                            onClick={handleSignOut}
+                            >
+                            Sign out
+                        </button>
+                    </div>
+
                     <button
-                        className="navbar-toggler"
+                        className="navbar-toggler order-2 order-lg-1"
                         type="button"
                         onClick={() => setIsOpen(!isOpen)}
                         aria-controls="navbarSupportedContent"
@@ -36,15 +62,10 @@ function NavPetowner() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div
-                        className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
+                        className={`collapse navbar-collapse ${isOpen ? "show" : ""} order-3 order-lg-1`}
                         id="navbarSupportedContent"
                     >
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 gap-2 align-items-center">
-                            <li className="nav-item">
-                                <Link to="/petowner/home">
-                                    <img src="/images/logo.png" alt="Logo" style={{ width: "70px" }} />
-                                </Link>
-                            </li>
+                        <ul className="navbar-nav  mb-2 mb-lg-0 gap-2 align-items-center">
                             <li className="nav-item">
                                 <Link className={`nav-link ${isActive("/petowner/home")}`} to="/petowner/home">
                                     Home
@@ -81,13 +102,13 @@ function NavPetowner() {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className={`nav-link`} to="/veterinarian/home">
+                                <Link className={`nav-link ${isActive("/veterinarian")}`} to="/veterinarian/home">
                                     Veterinarian
                                 </Link>
                             </li>
                             <li className="nav-item dropdown">
                             <Link
-                                className={`nav-link  dropdown-toggle ${isActive("/animalshelter/animal")}`}
+                                className={`nav-link   ${isActive("/animalshelter")}`}
                                 to="#"
                                 id="animalShelterDropdown"
                                 role="button"
@@ -121,21 +142,6 @@ function NavPetowner() {
                             </li>
                         </ul>
 
-                        {currentUser && currentUser.role === "user" && (
-                            <Link
-                                to="/petowner/myprofile"
-                                className="btn-custom me-1"
-                            >
-                                Hi, {currentUser.name}
-                            </Link>
-                        )}
-                        <button
-                            className="btn btn-outline-secondary"
-                            
-                            onClick={handleSignOut}
-                        >
-                            Sign out
-                        </button>
                     </div>
                 </div>
             </nav>

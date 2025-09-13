@@ -8,7 +8,7 @@ export default function VetLayout() {
   return (
     <div>
       <NavPetowner />
-      <div className="container mt-4">
+      <div className="container " style={{marginTop:"100px"}}>
         <Outlet />
       </div>
       <Footer />

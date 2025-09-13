@@ -37,7 +37,7 @@ const HomeVeterinarian = () => {
   const navigate = useNavigate();
 
   const handleClick = (id) => {
-    navigate(`/veterinarian/${id}`);
+    navigate(`/veterinarian/vetprofile/${id}`);
   };
 
   useEffect(() => {
@@ -210,7 +210,7 @@ const HomeVeterinarian = () => {
                 className="col-lg-3 col-md-4 col-sm-6 mb-4"
                 onClick={() => handleClick(vet.id)}
                 style={{ cursor: "pointer" }}
-                data-aos={index % 2 === 0 ? "fade-right" : "fade-left"} // hiệu ứng xen kẽ
+                data-aos={"fade-up"} // hiệu ứng xen kẽ
                 data-aos-delay={index * 100} // mỗi card trễ 0.1s
               >
                 <div className="card vet-card h-100">
